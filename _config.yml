@@ -1,0 +1,12 @@
+title: ARIA Legal
+description: Privacy Policy and Terms of Service for ARIA — AI Personal Assistant
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - privacy-policy.md
+  - terms-of-service.md
