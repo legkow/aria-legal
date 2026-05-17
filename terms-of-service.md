@@ -1,9 +1,9 @@
 # Terms of Service
 
 **Effective date:** May 11, 2026
-**Last updated:** May 11, 2026
+**Last updated:** May 17, 2026
 **App:** ARIA: AI Personal Assistant
-**Operator:** Boris Legkow (sole proprietor) — contact: blegkow@gmail.com
+**Operator:** Boris Legkow (sole proprietor) — contact: blegkow@gmail.com (general), ariaapp.support@gmail.com (in-app feedback / support)
 
 Please read these Terms carefully. They form a binding agreement between you and Boris Legkow ("we", "us", "ARIA"). By downloading, installing, or using the App you agree to these Terms. If you do not agree, do not use the App.
 
@@ -171,6 +171,7 @@ If any part of these Terms is held unenforceable, the rest stays in effect.
 ## 16. Contact
 
 **Boris Legkow**
-Email: blegkow@gmail.com
+- General / business: blegkow@gmail.com
+- In-app feedback, bug reports, and support: ariaapp.support@gmail.com
 
 For privacy-specific questions, see the Privacy Policy.

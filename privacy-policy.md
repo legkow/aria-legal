@@ -1,9 +1,9 @@
 # Privacy Policy
 
 **Effective date:** May 11, 2026
-**Last updated:** May 11, 2026
+**Last updated:** May 17, 2026
 **App:** ARIA: AI Personal Assistant
-**Operator:** Boris Legkow (sole proprietor) — contact: blegkow@gmail.com
+**Operator:** Boris Legkow (sole proprietor) — contact: blegkow@gmail.com (general), ariaapp.support@gmail.com (in-app feedback / support)
 
 This Privacy Policy explains how ARIA ("ARIA", "we", "our", "the App") collects, uses, stores, and shares information when you use the iOS application "ARIA: AI Personal Assistant". By using ARIA you agree to the practices described here. If you do not agree, do not install or use the App.
 
@@ -14,15 +14,18 @@ We've tried to write this in plain English. Where law requires more formal langu
 ## 1. What information we collect
 
 ### 1.1 Information you give us directly
-- **Account profile** — your first name, email address (from Sign in with Apple or Google), and theme/currency preferences.
+- **Account profile** — your first name, email address (from Sign in with Apple or Google), theme/currency preferences, and (if you customise it) a profile avatar photo or two-character initials.
 - **Tasks, calendar events, reminders, notes** — content you create inside ARIA.
 - **Financial data you import manually** — bank statement PDFs you upload, receipt photos you scan, transactions you type in, budget categories, financial goals, and contributions.
+- **Feedback you send us** — when you tap "Send feedback" in Settings (or the post-rating "Could be better" option), the message you write is delivered to ariaapp.support@gmail.com via the iOS Mail composer. The email auto-attaches your app version, build number, OS platform, and a truncated 12-character tag derived from your sign-in identifier so we can correlate reports. You see and approve the full email body in Mail before it sends.
 
 ### 1.2 Information collected through connected services (only if you opt in)
 - **Plaid (bank linking)** — if you connect a bank through Plaid, Plaid collects your bank login credentials, account balances, transaction history, account/routing numbers, and account holder name. Plaid sends ARIA your transactions and balances; **Plaid does NOT share your login credentials with us**. See Plaid's End User Privacy Policy at https://plaid.com/legal/#end-user-privacy-policy.
 - **Apple/Google Calendar** — if you grant calendar permission, ARIA reads event titles, times, and locations to display your schedule. We do not write to your calendar without your action.
 - **Apple Reminders** — if you grant reminders permission, ARIA reads reminder text and due dates.
-- **Photos / Camera** — only when you scan a receipt or import a PDF statement. The image/file is sent to Anthropic for parsing and is not retained by us beyond the import session.
+- **Photos / Camera** — used for two distinct purposes:
+  - *Receipt scanning / PDF import* — the image or file is sent to Anthropic for parsing and is not retained by us beyond the import session.
+  - *Profile avatar* — if you upload a photo as your avatar, it is stored locally on your device only (in encrypted AsyncStorage as a base64 data URI). It is **never uploaded to any server** and is wiped when you delete your account or reset to default.
 - **Microphone** — only if you tap the voice input button. Audio is sent for transcription and not retained.
 - **Notifications** — to deliver bill reminders and trial-end reminders. You can disable in iOS Settings at any time.
 
@@ -64,7 +67,7 @@ We share data only with the third-party processors needed to run the App. Each i
 | Processor | What we share | Why | Their privacy policy |
 |---|---|---|---|
 | **Apple** | Sign in with Apple identifier, App Store transaction records | Authentication, subscription billing | https://www.apple.com/legal/privacy/ |
-| **Google** | Sign in with Google identifier (if used) | Authentication | https://policies.google.com/privacy |
+| **Google** | Sign in with Google identifier (if used); Gmail inbox metadata you forward us via the in-app feedback form | Authentication; receiving + responding to support email at ariaapp.support@gmail.com | https://policies.google.com/privacy |
 | **Plaid** | Bank credentials (entered directly by you in Plaid's UI, never seen by us) | Bank account linking | https://plaid.com/legal/ |
 | **Anthropic (Claude API)** | Text prompts and uploaded PDFs/images you submit for AI processing | Generate AI summaries, parse statements, scan receipts | https://www.anthropic.com/legal/privacy |
 | **RevenueCat** | Pseudonymous user ID, subscription status | Subscription management | https://www.revenuecat.com/privacy |
@@ -91,7 +94,8 @@ If we are legally compelled (e.g., a valid subpoena or court order), we will com
 ## 5. How long we keep your data
 
 - **Account profile** — for as long as your account is active. If you delete your account, we delete it within 30 days.
-- **On-device data** — kept until you uninstall ARIA or use "Reset App" in Settings.
+- **On-device data** — kept until you uninstall ARIA or use "Reset App" in Settings. Avatar photos live exclusively here and are wiped with the rest of local data.
+- **Feedback emails** — retained in the ariaapp.support@gmail.com inbox until manually deleted, typically for as long as needed to investigate and resolve your issue. You can request deletion by emailing ariaapp.support@gmail.com.
 - **Anthropic prompts** — Anthropic retains prompts according to their API policy (typically up to 30 days for abuse monitoring) and does not train models on them.
 - **Plaid data** — Plaid's retention is governed by their privacy policy.
 - **Sentry crash data** — retained 30 days for error triage.

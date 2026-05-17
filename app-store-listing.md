@@ -31,18 +31,20 @@ Money manager, tasks & focus
 ## Promotional Text (170 chars max — editable without re-review)
 
 ```
-Stop juggling 5 apps. ARIA unifies your bills, tasks, calendar, and bank in one calm AI co-pilot — built for the ADHD brain, polished for everyone.
+Stop juggling 5 apps. ARIA brings your bills, tasks, calendar, and bank into one calm AI assistant — designed for messy brains, polished for everyone.
 ```
-(149 chars — same as v1, still strong)
+(150 chars)
+
+**Why this wording:** dropped "AI co-pilot" (Microsoft trademark adjacency) → "AI assistant" (algorithm-friendly). Dropped "ADHD" up top → "messy brains" (universal). ADHD mention moves deeper into the description where engaged readers find it.
 
 ---
 
 ## Description (4000 chars max)
 
 ```
-ARIA is your personal AI life-OS — one app that watches over your money, tasks, time, and what actually matters today.
+ARIA is your personal AI assistant for the parts of life that fight for your attention — money, tasks, time, and the one thing you should focus on today.
 
-Built for people who are tired of juggling six different apps. Designed especially well for the ADHD brain: ARIA pre-decides what's important and tells you the one next thing to do, instead of dumping a wall of options on you.
+Most apps dump a wall of data on you and call it a dashboard. ARIA does the opposite. It reads what's on your plate, pre-decides what's actually important, and tells you the one next move. That's it.
 
 WHAT ARIA DOES
 
@@ -74,6 +76,12 @@ If you've ever:
 
 — ARIA is for you.
 
+DESIGNED FOR MESSY BRAINS
+
+ARIA was built with neurodivergent minds in mind — especially ADHD. Pre-decided actions instead of infinite menus. One next step instead of a wall of options. Calm typography. No notification spam. If your attention is your most expensive currency, ARIA is built to spend less of it.
+
+If that sounds like you — even some days — you'll feel the difference within an hour.
+
 FOUNDERS PRICING (first 1,000 members)
 
 $4.99/month or $39.99/year, locked at that rate for life.
@@ -89,7 +97,6 @@ WHAT YOU GET WITH PREMIUM
 • Bill auto-detection from imported statements
 • Receipt scanning
 • Daily Brief summaries
-• Cross-device sync (coming soon)
 • Priority support
 
 WHAT YOU CAN DO FOR FREE
@@ -101,8 +108,6 @@ WHAT YOU CAN DO FOR FREE
 • Up to 5 AI chats per day
 
 ARIA respects your attention. No notifications you didn't ask for. No dark patterns. No ads. Ever.
-
-Built for neurodivergent minds, polished for everyone.
 
 —
 
