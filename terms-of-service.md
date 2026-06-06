@@ -56,7 +56,7 @@ You are bound by Plaid's End User Privacy Policy (https://plaid.com/legal/) and 
 ## 5. Subscriptions and billing
 
 ### 5.1 Free trial and paid plans
-ARIA offers a 7-day free trial of premium features. After the trial, you may continue using ARIA Premium on a monthly or annual basis at the price displayed in-app at purchase. Founders pricing ($4.99/month or $39.99/year) is offered to the first 1,000 subscribers and is locked at that rate for the life of the subscription. After the founders cap is reached, standard pricing applies ($9.99/month or $79.99/year).
+ARIA offers a 3-day free trial of premium features. After the trial, you may continue using ARIA Premium on a monthly or annual basis at the price displayed in-app at purchase. Founders pricing ($9.99/month or $79.99/year) is offered to the first 250 subscribers and is locked at that rate for the life of the subscription. After the founders cap is reached, standard pricing applies ($11.99/month or $99.99/year).
 
 ### 5.2 How billing works
 All payments are processed by **Apple** through your App Store account (or by Google through your Google Play account). ARIA never sees your payment card.

@@ -82,13 +82,13 @@ ARIA was built with neurodivergent minds in mind — especially ADHD. Pre-decide
 
 If that sounds like you — even some days — you'll feel the difference within an hour.
 
-FOUNDERS PRICING (first 1,000 members)
+FOUNDERS PRICING (first 250 members)
 
-$4.99/month or $39.99/year, locked at that rate for life.
+$9.99/month or $79.99/year, locked at that rate for life.
 
-After the founders cap is reached: $9.99/month or $79.99/year.
+After the founders cap is reached: $11.99/month or $99.99/year.
 
-7-day free trial. Cancel anytime in iOS Settings.
+3-day free trial. Cancel anytime in iOS Settings.
 
 WHAT YOU GET WITH PREMIUM
 
