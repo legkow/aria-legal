@@ -15,4 +15,4 @@ For Quebec residents, the **French versions prevail** in the event of any discre
 
 ---
 
-*Operated by Boris Alexander Legkow Orias. Contact: support@heyaria.app.*
+*Operated by Boris Alexander Legkow Orias. Contact: legkow@me.com.*

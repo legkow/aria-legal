@@ -14,7 +14,7 @@ En téléchargeant, en installant ou en utilisant ARIA, vous acceptez les prése
 conditions ainsi que notre [politique de confidentialité](./privacy-policy-fr).
 **Si vous n'êtes pas d'accord, n'utilisez pas l'application.**
 
-Contact : support@heyaria.app · https://heyaria.app
+Contact : legkow@me.com · https://heyaria.app
 
 ---
 
@@ -311,14 +311,14 @@ d'Apple. Vous et nous reconnaissons ce qui suit :
    des présentes conditions et, dès votre acceptation, ont le droit de les faire
    valoir à votre encontre.
 9. **Contact du développeur** pour toute question, plainte ou réclamation au sujet
-   d'ARIA : support@heyaria.app.
+   d'ARIA : legkow@me.com.
 
 ---
 
 ## 15. Contact
 
-**support@heyaria.app**
-Boris Alexander Legkow Orias · adresse postale disponible sur demande · https://heyaria.app
+**legkow@me.com**
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://heyaria.app
 
 ---
 

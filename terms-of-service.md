@@ -10,7 +10,7 @@ These Terms of Use ("Terms") are a binding agreement between you and
 these Terms and to our [Privacy Policy](./privacy-policy). **If you do not
 agree, do not use the app.**
 
-Contact: support@heyaria.app · https://heyaria.app
+Contact: legkow@me.com · https://heyaria.app
 
 ---
 
@@ -259,14 +259,14 @@ we acknowledge:
    beneficiaries** of these Terms and, upon your acceptance, have the right to
    enforce them against you.
 9. **Developer contact** for questions, complaints, or claims about ARIA:
-   support@heyaria.app.
+   legkow@me.com.
 
 ---
 
 ## 15. Contact
 
-**support@heyaria.app**
-Boris Alexander Legkow Orias · postal address available on request · https://heyaria.app
+**legkow@me.com**
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://heyaria.app
 
 ---
 

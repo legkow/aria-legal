@@ -17,8 +17,8 @@ GDPR** (as data controller) and the **California CCPA/CPRA**.
 
 - **Person in charge of the protection of personal information (Privacy Officer):**
   Boris Alexander Legkow Orias
-- **Contact:** support@heyaria.app
-- **Postal address:** available on request at support@heyaria.app
+- **Contact:** legkow@me.com
+- **Postal address:** 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 - **Website:** https://heyaria.app
 
 Quebec residents are covered by **Law 25**; other Canadian users and any personal
@@ -185,7 +185,7 @@ cannot decrypt), your account record, and — server-side only — your Plaid ac
 token. Cloudflare acts as our hosting processor.
 
 We maintain a current list of sub-processors available on request at
-support@heyaria.app.
+legkow@me.com.
 
 ---
 
@@ -247,7 +247,7 @@ We disclose data only:
 **EU/UK (GDPR) rights.** You may request access, rectification, erasure,
 restriction, portability, and objection, and you may withdraw consent at any time.
 Many of these are available directly in-app (export/delete). For anything else,
-email support@heyaria.app. We respond within **30 days** (extendable by 60 days for
+email legkow@me.com. We respond within **30 days** (extendable by 60 days for
 complex requests). You also have the right to lodge a complaint with your
 supervisory authority. *(Note: a non-EU controller offering services to EU users
 may be required to appoint an EU representative under GDPR Art. 27 — see "Action
@@ -258,7 +258,7 @@ your personal information, and to limit the use of sensitive personal informatio
 We do not sell or share your personal information and do not discriminate against
 you for exercising your rights. We acknowledge requests within **10 business days**
 and respond within **45 days** (extendable by 45 days). Submit requests at
-support@heyaria.app.
+legkow@me.com.
 
 **Canada — Quebec (Law 25) & PIPEDA rights.** You may:
 - **access** the personal information we hold about you and **correct** it;
@@ -311,7 +311,7 @@ We verify requests using reasonable measures proportionate to the data involved
 ARIA is not directed to children. We do not knowingly collect personal
 information from a minor under **14** in Quebec (where Law 25 keys consent to a
 parent or tutor), under **16** in the EU/UK, or under **13** in the United States
-(COPPA). If you believe a child has provided us data, contact support@heyaria.app
+(COPPA). If you believe a child has provided us data, contact legkow@me.com
 and we will delete it.
 
 ---
@@ -348,8 +348,8 @@ in-app notice. Continued use after an update means you accept the revised policy
 ## 14. Contact
 
 Questions, requests, or complaints:
-**support@heyaria.app**
-Boris Alexander Legkow Orias · postal address available on request
+**legkow@me.com**
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 ---
 

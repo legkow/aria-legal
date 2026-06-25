@@ -27,8 +27,8 @@ traitement) et de la **CCPA/CPRA de Californie**.
 - **Personne responsable de la protection des renseignements personnels
   (responsable de la protection des renseignements personnels) :**
   Boris Alexander Legkow Orias
-- **Coordonnées :** support@heyaria.app
-- **Adresse postale :** disponible sur demande à support@heyaria.app
+- **Coordonnées :** legkow@me.com
+- **Adresse postale :** 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 - **Site Web :** https://heyaria.app
 
 Les résidents du Québec sont visés par la **Loi 25**; les autres utilisateurs
@@ -221,7 +221,7 @@ votre dossier de compte et — uniquement côté serveur — votre jeton d'accè
 Cloudflare agit comme notre sous-traitant d'hébergement.
 
 Nous tenons à jour une liste des sous-traitants, disponible sur demande à
-support@heyaria.app.
+legkow@me.com.
 
 ---
 
@@ -298,7 +298,7 @@ Nous ne communiquons des données que :
 rectification, l'effacement, la limitation, la portabilité et l'opposition, et vous
 pouvez retirer votre consentement à tout moment. Plusieurs de ces droits sont
 accessibles directement dans l'application (exportation/suppression). Pour toute
-autre demande, écrivez à support@heyaria.app. Nous répondons dans un délai de
+autre demande, écrivez à legkow@me.com. Nous répondons dans un délai de
 **30 jours** (prolongeable de 60 jours pour les demandes complexes). Vous avez aussi
 le droit de déposer une plainte auprès de votre autorité de contrôle. *(Remarque :
 un responsable du traitement situé hors de l'UE qui offre des services à des
@@ -311,7 +311,7 @@ des renseignements personnels sensibles. Nous ne vendons ni ne communiquons vos
 renseignements personnels et nous n'exerçons aucune discrimination à votre égard
 parce que vous exercez vos droits. Nous accusons réception des demandes dans un délai
 de **10 jours ouvrables** et y répondons dans un délai de **45 jours** (prolongeable
-de 45 jours). Soumettez vos demandes à support@heyaria.app.
+de 45 jours). Soumettez vos demandes à legkow@me.com.
 
 **Droits au Canada — Québec (Loi 25) et LPRPDE.** Vous pouvez :
 - **accéder** aux renseignements personnels que nous détenons à votre sujet et les
@@ -372,7 +372,7 @@ renseignements personnels auprès d'un mineur de moins de **14 ans** au Québec 
 Loi 25 rattache le consentement à un parent ou à un tuteur), de moins de **16 ans**
 dans l'UE/au Royaume-Uni, ni de moins de **13 ans** aux États-Unis (COPPA). Si vous
 croyez qu'un enfant nous a fourni des données, communiquez avec
-support@heyaria.app et nous les supprimerons.
+legkow@me.com et nous les supprimerons.
 
 ---
 
@@ -415,8 +415,8 @@ jour signifie que vous acceptez la politique révisée.
 ## 14. Coordonnées
 
 Questions, demandes ou plaintes :
-**support@heyaria.app**
-Boris Alexander Legkow Orias · adresse postale disponible sur demande
+**legkow@me.com**
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 ---
 
