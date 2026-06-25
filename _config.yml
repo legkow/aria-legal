@@ -1,5 +1,5 @@
 title: ARIA Legal
-description: Privacy Policy and Terms of Service for ARIA — AI Personal Assistant
+description: Privacy Policy and Terms of Use for ARIA — in English and French
 theme: jekyll-theme-cayman
 markdown: kramdown
 plugins:
@@ -10,3 +10,5 @@ relative_links:
 include:
   - privacy-policy.md
   - terms-of-service.md
+  - privacy-policy-fr.md
+  - terms-of-service-fr.md
