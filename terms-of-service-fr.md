@@ -2,8 +2,8 @@
 
 > **Avis sur la version qui prévaut.** La présente version française est la traduction officielle des conditions d'utilisation d'ARIA. **Pour les consommateurs résidant au Québec, c'est la version française qui prévaut** en cas de divergence avec la version anglaise, conformément à la *Charte de la langue française* (RLRQ, c. C-11) et à la *Loi sur la protection du consommateur* (RLRQ, c. P-40.1). Cette traduction devrait être révisée par un avocat avant sa diffusion publique.
 
-**Dernière mise à jour : 24 juin 2026**
-**Date d'entrée en vigueur : 24 juin 2026**
+**Dernière mise à jour : 29 juin 2026**
+**Date d'entrée en vigueur : 29 juin 2026**
 
 Les présentes conditions d'utilisation (« conditions ») constituent une entente
 ayant force obligatoire entre vous et **Boris Alexander Legkow Orias**, un
@@ -40,7 +40,7 @@ ce qui suit attentivement :
   de paiements en votre nom. Les connexions bancaires (par l'intermédiaire de
   Plaid) sont **en lecture seule**.
 - **L'information peut être inexacte.** Les données importées de votre banque (par
-  l'intermédiaire de Plaid), de votre calendrier ou de votre courriel, de même que
+  l'intermédiaire de Plaid) ou de votre calendrier, de même que
   tout contenu généré par l'IA, peuvent être incomplets, retardés ou erronés.
   **Vérifiez toujours auprès de votre banque, de votre créancier et des documents
   officiels avant d'agir.** Vous êtes seul responsable de vos décisions
@@ -150,7 +150,7 @@ politiques de confidentialité, et nous n'en sommes pas responsables :
 - **Plaid** (connexion bancaire) — en lecture seule; les conditions de Plaid et sa
   [politique de confidentialité de l'utilisateur final](https://plaid.com/legal/)
   s'appliquent.
-- **Google** (Calendar / Gmail) — en lecture seule; les conditions de Google
+- **Google** (Calendar) — en lecture seule; les conditions de Google
   s'appliquent, et notre utilisation des données Google respecte la **Google API
   Services User Data Policy**, y compris l'utilisation limitée (« Limited Use »)
   (voir la politique de confidentialité).

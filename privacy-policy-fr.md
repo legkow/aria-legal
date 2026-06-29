@@ -7,8 +7,8 @@
 > française* (RLRQ, c. C-11). Cette traduction devrait être révisée par un juriste
 > avant sa diffusion publique.
 
-**Dernière mise à jour : 24 juin 2026**
-**Date d'entrée en vigueur : 24 juin 2026**
+**Dernière mise à jour : 29 juin 2026**
+**Date d'entrée en vigueur : 29 juin 2026**
 
 La présente politique de confidentialité explique comment ARIA (« ARIA »,
 « l'application », « nous », « notre », « nos ») traite vos renseignements. ARIA est
@@ -40,9 +40,8 @@ s'appliquer, nous appliquons la **norme la plus élevée**.
 > sur votre iPhone. Si vous activez la synchronisation, vos données sont chiffrées
 > sur votre appareil au moyen d'une clé qui ne le quitte jamais, de sorte que même
 > nous ne pouvons pas les lire. Certaines fonctions sont optionnelles et ne
-> s'exécutent que lorsque vous les activez : relier une banque (Plaid), analyser
-> votre boîte de réception à la recherche d'abonnements (Gmail) ou importer votre
-> agenda (Google/Apple). Les fonctions d'IA s'exécutent sur votre appareil au moyen
+> s'exécutent que lorsque vous les activez : relier une banque (Plaid) ou importer
+> votre agenda (Google/Apple). Les fonctions d'IA s'exécutent sur votre appareil au moyen
 > des modèles d'Apple. Nous ne vous suivons pas d'une application ou d'un site Web à
 > l'autre, nous n'exécutons aucun SDK publicitaire et nous ne vendons pas vos
 > données. Ce résumé n'est fourni que par commodité; c'est le texte complet ci-dessous
@@ -77,7 +76,6 @@ jamais envoyées à nous ni à qui que ce soit d'autre.
 | **Dossiers financiers** | Noms et soldes de comptes, transactions (commerçant, montant, date, catégorie), factures, budgets, objectifs, montants de filet de sécurité, abonnements | Vous les saisissez; vous importez un fichier CSV; ou vous reliez une banque au moyen de Plaid | Sur l'appareil. Si la synchronisation est activée, incluses dans la sauvegarde **chiffrée de bout en bout**. |
 | **Données bancaires via Plaid** | Soldes de comptes, historique des transactions, masque du compte (4 derniers chiffres) | Uniquement si vous reliez une banque dans Plaid Link | Récupérées côté serveur par notre infrastructure dorsale et livrées à votre appareil. Voir la section 5. **En lecture seule — ARIA ne déplace jamais d'argent.** |
 | **Événements d'agenda** | Titres d'événements, dates, heures | Agenda Apple (EventKit) ou Google Agenda, en lecture seule, uniquement si vous les reliez; ou vous créez des événements dans ARIA | Sur l'appareil. Si la synchronisation est activée, incluses dans la sauvegarde chiffrée. |
-| **Abonnements déduits du courriel** | Commerçant, prix estimé, date de renouvellement — déduits **uniquement des métadonnées** des messages (Expéditeur, Objet, extrait) | Uniquement si vous exécutez « Analyser la boîte de réception » (Gmail en lecture seule). Le corps du message n'est jamais téléchargé. | Les métadonnées sont traitées **sur votre appareil**; seul le résumé d'abonnement extrait est conservé. Voir la section 5. |
 | **Tâches et projets** | Titres de tâches, dates d'échéance, étiquettes, projets, étapes | Vous les saisissez, ou vous les ajoutez par la voix au moyen de Siri | Sur l'appareil. Si la synchronisation est activée, incluses dans la sauvegarde chiffrée. |
 | **Votre nom** | Prénom | Vous le fournissez facultativement à la connexion | Sur l'appareil; rattaché à votre compte si vous utilisez la synchronisation infonuagique. |
 | **Identifiant de compte** | Identifiant utilisateur Apple (de Se connecter avec Apple) | Se connecter avec Apple | Envoyé à notre infrastructure dorsale pour créer et authentifier votre compte. |
@@ -103,7 +101,7 @@ juridiques suivantes (art. 6) :
 |---|---|
 | Faire fonctionner les fonctions essentielles de l'application sur votre appareil (suivi de l'argent, des factures, des tâches, de l'agenda) | **Exécution d'un contrat** (art. 6(1)(b)) — vous nous avez demandé de fournir ARIA |
 | Authentifier votre compte et synchroniser votre sauvegarde chiffrée | **Exécution d'un contrat** (art. 6(1)(b)) |
-| Relier une banque (Plaid), importer un agenda ou analyser votre boîte de réception (Gmail) | **Consentement** (art. 6(1)(a)) — ces fonctions sont désactivées jusqu'à ce que vous les activiez, et vous pouvez retirer votre consentement à tout moment |
+| Relier une banque (Plaid) ou importer un agenda (Google/Apple) | **Consentement** (art. 6(1)(a)) — ces fonctions sont désactivées jusqu'à ce que vous les activiez, et vous pouvez retirer votre consentement à tout moment |
 | Traiter le verrouillage biométrique de l'application | **Consentement** — et géré par iOS, jamais par nous |
 | Diagnostics facultatifs | **Consentement** (désactivé par défaut) |
 | Gérer votre abonnement ARIA+ | **Exécution d'un contrat** (art. 6(1)(b)) |
@@ -115,7 +113,7 @@ consentement n'a pas d'incidence sur le traitement déjà effectué.
 
 **Consentement, et consentement exprès pour les renseignements sensibles.** Nous
 demandons votre consentement au moyen de choix clairs, précis et distincts — chaque
-intégration optionnelle (Plaid, Google Agenda, Gmail) et la synchronisation
+intégration optionnelle (Plaid, Google Agenda) et la synchronisation
 infonuagique sont désactivées jusqu'à ce que vous les activiez. Comme vos
 **renseignements financiers sont sensibles**, nous demandons votre consentement
 **exprès** avant que vous reliiez une banque ou que nous traitions vos données
@@ -176,26 +174,22 @@ confidentialité des utilisateurs finaux** de Plaid :
 https://plaid.com/legal/#end-user-privacy-policy. Vous pouvez déconnecter une banque
 à tout moment dans les Réglages, ce qui dissocie l'élément.
 
-### Google — Agenda et Gmail (optionnel)
-Si vous reliez Google Agenda ou exécutez « Analyser la boîte de réception », ARIA
-demande un accès en **lecture seule** (`calendar.readonly`, `gmail.readonly`) au
-moyen de Google OAuth. Les jetons OAuth sont stockés dans le trousseau de votre
-appareil.
+### Google — Agenda (optionnel)
+Si vous reliez Google Agenda, ARIA demande un accès en **lecture seule**
+(`calendar.readonly`) au moyen de Google OAuth. Les jetons OAuth sont stockés dans
+le trousseau de votre appareil.
 
 > **Divulgation d'utilisation limitée (Limited Use).** L'utilisation et le transfert
 > par ARIA des renseignements reçus des API Google sont conformes à la
 > [politique de Google relative aux données utilisateur des services API](https://developers.google.com/terms/api-services-user-data-policy),
 > y compris ses exigences d'**utilisation limitée** (Limited Use). Plus précisément :
-> nous accédons aux données de Google Agenda et de Gmail uniquement pour fournir et
-> améliorer les fonctions internes que vous demandez (afficher vos événements;
-> détecter des abonnements à partir des **métadonnées** des courriels); nous traitons
-> ces données **sur votre appareil**; nous **ne** les transférons **pas** à des tiers,
+> nous accédons aux données de Google Agenda uniquement pour fournir et améliorer les
+> fonctions internes que vous demandez (afficher vos événements); nous traitons ces
+> données **sur votre appareil**; nous **ne** les transférons **pas** à des tiers,
 > sauf dans la mesure nécessaire pour fournir ces fonctions, pour des raisons de
 > sécurité ou pour nous conformer à la loi; nous **ne** les utilisons **pas** à des
 > fins publicitaires; et nous **ne** permettons **pas** à des humains de les lire,
 > sauf avec votre consentement, pour des raisons de sécurité ou si la loi l'exige.
-> Pour Gmail, ARIA ne lit que les métadonnées des messages (Expéditeur, Objet,
-> extrait) — **jamais le corps du message**.
 
 ### Apple — comptes, agenda, achats, intelligence
 ARIA utilise des cadriciels Apple : **Se connecter avec Apple** (création de
@@ -288,7 +282,7 @@ Nous ne communiquons des données que :
 - **Supprimer le compte** — efface votre compte sur notre infrastructure dorsale et
   chaque dossier sur votre appareil, et détruit votre clé de chiffrement de
   synchronisation. Cette action est irréversible.
-- **Déconnecter les intégrations** — dissociez Plaid, Google Agenda ou Gmail à tout
+- **Déconnecter les intégrations** — dissociez Plaid ou Google Agenda à tout
   moment.
 - **Désactiver la synchronisation / utiliser hors ligne** — gardez toutes les données
   uniquement sur l'appareil.

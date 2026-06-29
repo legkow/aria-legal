@@ -1,7 +1,7 @@
 # ARIA — Terms of Use (End-User License Agreement)
 
-**Last updated: 24 June 2026**
-**Effective date: 24 June 2026**
+**Last updated: 29 June 2026**
+**Effective date: 29 June 2026**
 
 These Terms of Use ("Terms") are a binding agreement between you and
 **Boris Alexander Legkow Orias**, an individual developer operating as a sole trader ("we", "us",
@@ -29,8 +29,8 @@ surfaces patterns in **your own data**.
 - **Not a bank, money transmitter, broker, or payment service.** ARIA does **not**
   hold, send, receive, transfer, or move money, and it cannot make payments on
   your behalf. Bank connections (via Plaid) are **read-only**.
-- **Information may be inaccurate.** Data imported from your bank (via Plaid),
-  your calendar, or your email, and any AI-generated output, may be incomplete,
+- **Information may be inaccurate.** Data imported from your bank (via Plaid) or
+  your calendar, and any AI-generated output, may be incomplete,
   delayed, or wrong. **Always verify against your bank, biller, and official
   records before acting.** You are solely responsible for your financial decisions.
 
@@ -124,7 +124,7 @@ responsible for them:
 
 - **Plaid** (bank connection) — read-only; Plaid's terms and
   [End User Privacy Policy](https://plaid.com/legal/) apply.
-- **Google** (Calendar / Gmail) — read-only; Google's terms apply, and our use of
+- **Google** (Calendar) — read-only; Google's terms apply, and our use of
   Google data follows the **Google API Services User Data Policy**, including
   Limited Use (see Privacy Policy).
 - **Apple** (Sign in with Apple, Calendar, purchases, on-device intelligence).

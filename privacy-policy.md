@@ -1,7 +1,7 @@
 # ARIA — Privacy Policy
 
-**Last updated: 24 June 2026**
-**Effective date: 24 June 2026**
+**Last updated: 29 June 2026**
+**Effective date: 29 June 2026**
 
 This Privacy Policy explains how ARIA ("ARIA", "the app", "we", "us", "our")
 handles your information. ARIA is a personal-finance, calendar, and task
@@ -28,8 +28,8 @@ Where more than one law could apply, we apply the **higher standard**.
 > **Plain-language summary.** Almost everything you put into ARIA stays on your
 > iPhone. If you turn on sync, your data is encrypted on your device with a key
 > that never leaves it, so even we cannot read it. Some features are optional and
-> only run when you switch them on: connecting a bank (Plaid), scanning your inbox
-> for subscriptions (Gmail), or importing your calendar (Google/Apple). AI
+> only run when you switch them on: connecting a bank (Plaid) or importing your
+> calendar (Google/Apple). AI
 > features run on your device using Apple's models. We do not track you across
 > apps or websites, we run no advertising SDKs, and we do not sell your data.
 > This summary is for convenience only; the full text below governs.
@@ -60,7 +60,6 @@ is never sent to us or anyone else.
 | **Financial records** | Account names & balances, transactions (merchant, amount, date, category), bills, budgets, goals, safety-net amounts, subscriptions | You enter it; you import a CSV; or you link a bank via Plaid | On device. If sync is on, included in the **end-to-end-encrypted** backup. |
 | **Bank data via Plaid** | Account balances, transaction history, account mask (last 4 digits) | Only if you connect a bank in Plaid Link | Fetched server-side by our backend and delivered to your device. See Section 5. **Read-only — ARIA never moves money.** |
 | **Calendar events** | Event titles, dates, times | Apple Calendar (EventKit) and/or Google Calendar, read-only, only if you connect them; or you create events in ARIA | On device. If sync is on, included in the encrypted backup. |
-| **Email-derived subscriptions** | Merchant, estimated price, renewal date — derived from message **metadata only** (From, Subject, snippet) | Only if you run "Scan inbox" (Gmail read-only). The message body is never downloaded. | Metadata is processed **on your device**; only the extracted subscription summary is kept. See Section 5. |
 | **Tasks & projects** | Task titles, due dates, tags, projects, steps | You enter them, or add them by voice via Siri | On device. If sync is on, included in the encrypted backup. |
 | **Your name** | First name | You optionally provide it at sign-in | On device; tied to your account if you use cloud sync. |
 | **Account identifier** | Apple user identifier (from Sign in with Apple) | Sign in with Apple | Sent to our backend to create and authenticate your account. |
@@ -85,7 +84,7 @@ Where the GDPR/UK GDPR applies, we rely on the following legal bases (Art. 6):
 |---|---|
 | Run the app's core features on your device (track money, bills, tasks, calendar) | **Performance of a contract** (Art. 6(1)(b)) — you asked us to provide ARIA |
 | Authenticate your account and sync your encrypted backup | **Performance of a contract** (Art. 6(1)(b)) |
-| Connect a bank (Plaid), import a calendar, or scan your inbox (Gmail) | **Consent** (Art. 6(1)(a)) — these are off until you switch them on, and you can withdraw at any time |
+| Connect a bank (Plaid) or import a calendar (Google/Apple) | **Consent** (Art. 6(1)(a)) — these are off until you switch them on, and you can withdraw at any time |
 | Process biometric app-lock | **Consent** — and handled by iOS, never by us |
 | Optional diagnostics | **Consent** (off by default) |
 | Manage your ARIA+ subscription | **Performance of a contract** (Art. 6(1)(b)) |
@@ -97,7 +96,7 @@ processing that already happened.
 
 **Consent, and express consent for sensitive data.** We ask for your consent
 through clear, specific, separate choices — each optional integration (Plaid,
-Google Calendar, Gmail) and cloud sync are off until you turn them on. Because
+Google Calendar) and cloud sync are off until you turn them on. Because
 your **financial information is sensitive**, we ask for your **express** consent
 before you connect a bank or we process your financial data, and we use it only
 for the purposes you enabled.
@@ -147,22 +146,21 @@ Your use of Plaid is also governed by Plaid's **End User Privacy Policy**:
 https://plaid.com/legal/#end-user-privacy-policy. You can disconnect a bank at any
 time in Settings, which unlinks the item.
 
-### Google — Calendar and Gmail (optional)
-If you connect Google Calendar or run "Scan inbox," ARIA requests **read-only**
-access (`calendar.readonly`, `gmail.readonly`) via Google OAuth. OAuth tokens are
-stored in your device Keychain.
+### Google — Calendar (optional)
+If you connect Google Calendar, ARIA requests **read-only** access
+(`calendar.readonly`) via Google OAuth. OAuth tokens are stored in your device
+Keychain.
 
 > **Limited Use disclosure.** ARIA's use and transfer of information received from
 > Google APIs adheres to the
 > [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy),
 > including its **Limited Use** requirements. Specifically: we access Google
-> Calendar and Gmail data only to provide and improve the in-app features you
-> request (showing your events; detecting subscriptions from email **metadata**);
-> we process this data **on your device**; we do **not** transfer it to others
-> except as needed to provide these features, for security, or to comply with law;
-> we do **not** use it for advertising; and we do **not** allow humans to read it
-> except with your consent, for security, or as required by law. For Gmail, ARIA
-> reads only message metadata (From, Subject, snippet) — **never the message body**.
+> Calendar data only to provide and improve the in-app features you request
+> (showing your events); we process this data **on your device**; we do **not**
+> transfer it to others except as needed to provide these features, for security,
+> or to comply with law; we do **not** use it for advertising; and we do **not**
+> allow humans to read it except with your consent, for security, or as required
+> by law.
 
 ### Apple — accounts, calendar, purchases, intelligence
 ARIA uses Apple frameworks: **Sign in with Apple** (account creation), **EventKit**
@@ -240,7 +238,7 @@ We disclose data only:
 - **Export my data** — download a complete JSON copy of your records (Settings → Data).
 - **Delete account** — erases your account on our backend and every record on your
   device, and destroys your sync encryption key. This cannot be undone.
-- **Disconnect integrations** — unlink Plaid, Google Calendar, or Gmail at any time.
+- **Disconnect integrations** — unlink Plaid or Google Calendar at any time.
 - **Turn off sync / use offline** — keep all data on-device only.
 - **Turn off diagnostics** — clears stored events.
 
