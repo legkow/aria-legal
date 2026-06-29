@@ -19,7 +19,7 @@ GDPR** (as data controller) and the **California CCPA/CPRA**.
   Boris Alexander Legkow Orias
 - **Contact:** legkow@me.com
 - **Postal address:** 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
-- **Website:** https://heyaria.app
+- **Website:** https://legkow.github.io/aria-legal
 
 Quebec residents are covered by **Law 25**; other Canadian users and any personal
 information that crosses provincial or national borders are covered by **PIPEDA**.

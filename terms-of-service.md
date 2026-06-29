@@ -10,7 +10,7 @@ These Terms of Use ("Terms") are a binding agreement between you and
 these Terms and to our [Privacy Policy](./privacy-policy). **If you do not
 agree, do not use the app.**
 
-Contact: legkow@me.com · https://heyaria.app
+Contact: legkow@me.com · https://legkow.github.io/aria-legal
 
 ---
 
@@ -266,7 +266,7 @@ we acknowledge:
 ## 15. Contact
 
 **legkow@me.com**
-Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://heyaria.app
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://legkow.github.io/aria-legal
 
 ---
 

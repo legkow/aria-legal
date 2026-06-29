@@ -29,7 +29,7 @@ traitement) et de la **CCPA/CPRA de Californie**.
   Boris Alexander Legkow Orias
 - **Coordonnées :** legkow@me.com
 - **Adresse postale :** 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
-- **Site Web :** https://heyaria.app
+- **Site Web :** https://legkow.github.io/aria-legal
 
 Les résidents du Québec sont visés par la **Loi 25**; les autres utilisateurs
 canadiens et tout renseignement personnel qui traverse une frontière provinciale ou

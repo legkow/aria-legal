@@ -14,7 +14,7 @@ En téléchargeant, en installant ou en utilisant ARIA, vous acceptez les prése
 conditions ainsi que notre [politique de confidentialité](./privacy-policy-fr).
 **Si vous n'êtes pas d'accord, n'utilisez pas l'application.**
 
-Contact : legkow@me.com · https://heyaria.app
+Contact : legkow@me.com · https://legkow.github.io/aria-legal
 
 ---
 
@@ -318,7 +318,7 @@ d'Apple. Vous et nous reconnaissons ce qui suit :
 ## 15. Contact
 
 **legkow@me.com**
-Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://heyaria.app
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://legkow.github.io/aria-legal
 
 ---
 
