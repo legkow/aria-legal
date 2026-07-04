@@ -2,8 +2,8 @@
 
 > **Avis sur la version qui prévaut.** La présente version française est la traduction officielle des conditions d'utilisation d'ARIA. **Pour les consommateurs résidant au Québec, c'est la version française qui prévaut** en cas de divergence avec la version anglaise, conformément à la *Charte de la langue française* (RLRQ, c. C-11) et à la *Loi sur la protection du consommateur* (RLRQ, c. P-40.1). Cette traduction devrait être révisée par un avocat avant sa diffusion publique.
 
-**Dernière mise à jour : 29 juin 2026**
-**Date d'entrée en vigueur : 29 juin 2026**
+**Dernière mise à jour : 3 juillet 2026**
+**Date d'entrée en vigueur : 3 juillet 2026**
 
 Les présentes conditions d'utilisation (« conditions ») constituent une entente
 ayant force obligatoire entre vous et **Boris Alexander Legkow Orias**, un
@@ -102,6 +102,18 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
   l'application avant l'achat et peuvent varier selon la région, le forfait (p. ex.
   mensuel ou annuel) et la promotion (y compris une tarification « fondateurs »
   limitée).
+- **Tarification « fondateurs ».** Tant que des places « fondateurs » sont
+  disponibles, nous offrons un prix réduit que nous nous engageons à maintenir
+  aussi longtemps que votre abonnement reste actif **sans interruption**
+  (« verrouillé à vie »). **Si vous annulez, vous perdez le prix fondateurs.**
+  Si vous vous réabonnez plus tard, le tarif **standard** alors en vigueur vous
+  sera offert, et non le tarif fondateurs — même si des places fondateurs sont
+  encore disponibles à ce moment-là. Cet engagement de prix fondateurs tient,
+  sauf si le processus propre d'Apple d'augmentation de prix pour les abonnés
+  venait à s'appliquer à votre abonnement — auquel cas Apple vous demandera
+  séparément votre consentement au nouveau prix, que vous pouvez toujours
+  refuser en annulant, sans obligation de
+  l'accepter.
 - **Renouvellement automatique.** Les abonnements **se renouvellent
   automatiquement** au prix alors en vigueur pour la même période, à moins que vous
   ne les annuliez **au moins 24 heures avant** la fin de la période en cours. Votre
@@ -110,9 +122,16 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
 - **Gestion et annulation.** Gérez ou annulez en tout temps dans **Réglages → votre
   compte Apple → Abonnements**, ou au moyen du lien intégré à l'application. La
   suppression de l'application **n'annule pas** un abonnement.
-- **Essais gratuits**, lorsqu'ils sont offerts : toute portion inutilisée d'un
-  essai gratuit est perdue lorsque vous achetez un abonnement. Si vous n'annulez
-  pas avant la fin de l'essai, celui-ci se convertit en abonnement payant.
+- **Essai gratuit.** Les nouveaux utilisateurs bénéficient d'un accès complet à
+  ARIA+ pendant **3 jours à compter du premier lancement**, sans frais et
+  **sans qu'un mode de paiement soit requis**. Cet essai ne se convertit **pas**
+  automatiquement en abonnement payant : si vous ne vous abonnez pas avant la
+  fin de l'essai, ARIA revient simplement au forfait gratuit — vos données ne
+  sont jamais supprimées ni masquées. (Si nous offrons également un jour un
+  essai gratuit géré par l'App Store et lié à une carte pour un forfait précis,
+  toute portion inutilisée de cet essai serait perdue lors de l'achat et il se
+  convertirait en abonnement payant à moins d'être annulé au préalable — il
+  s'agirait d'un mécanisme distinct de l'essai de 3 jours décrit ci-dessus.)
 - **Les remboursements** sont gérés par Apple en vertu des conditions de l'App
   Store; nous ne pouvons généralement pas accorder de remboursement directement.
   Demandez les remboursements par l'intermédiaire d'Apple.
@@ -229,7 +248,12 @@ Vous pouvez cesser d'utiliser ARIA en tout temps et supprimer votre compte dans 
 Réglages, ce qui efface votre compte sur notre infrastructure dorsale ainsi que
 tous les enregistrements sur votre appareil. Nous pouvons suspendre ou résilier
 l'accès si vous manquez de façon importante aux présentes conditions ou si vous
-utilisez l'application de façon illégale. Les articles qui, par leur nature,
+utilisez l'application de façon illégale. Si nous suspendons ou résilions votre
+accès, vos données stockées localement demeurent sur votre appareil (ARIA
+fonctionne d'abord localement, avec un stockage sur l'appareil) et vous pouvez
+toujours les exporter ou les supprimer à cet endroit; nous supprimerons vos
+données de compte sur notre infrastructure dorsale sur demande, sauf si la loi
+exige que nous les conservions. Les articles qui, par leur nature,
 devraient survivre (p. ex. 8 à 10, 13 à 14) survivent à la résiliation.
 
 ---
@@ -262,10 +286,28 @@ et rien dans les présentes conditions ne vous oblige à recourir à l'**arbitra
 d'intenter ou de vous joindre à une action collective**.
 
 **Langue (Québec).** Une **version française** des présentes conditions et de notre
-politique de confidentialité est disponible, et pour les utilisateurs du Québec, la
-version française est fournie avant que vous n'acceptiez une version anglaise.
-*Les présentes conditions sont aussi offertes en français; la version française vous
-est remise avant que vous n'acceptiez la version anglaise.*
+politique de confidentialité est disponible. Selon la région ou la langue de
+votre appareil, ARIA présente la version française par défaut aux utilisateurs
+au Canada ou dont l'appareil est réglé en français; consulter la version
+anglaise exige une action distincte et délibérée (une commande « View in
+English instead » dans le document lui-même), et non un simple repli silencieux
+selon la langue de l'appareil. *A French version of these Terms and of our
+Privacy Policy is available. Based on your device's region or language
+setting, ARIA presents the French version by default to users in Canada or
+with French set as their device language; viewing the English version instead
+requires a separate, deliberate action, not a silent locale fallback.*
+
+**Intégralité de l'entente.** Les présentes conditions, ainsi que notre
+politique de confidentialité, constituent l'**entente intégrale** entre vous et
+le développeur relativement à ARIA, et remplacent toute entente, déclaration ou
+entente antérieure ou contemporaine, écrite ou orale, sauf disposition contraire
+expresse des présentes conditions.
+
+**Force majeure.** Nous ne sommes pas responsables de tout manquement ou retard
+dans l'exécution causé par des événements hors de notre contrôle raisonnable, y
+compris les interruptions de services de tiers dont nous dépendons (Apple,
+Plaid, RevenueCat, Cloudflare), les catastrophes naturelles, les défaillances
+d'Internet ou de télécommunications, ou une mesure gouvernementale.
 
 Vous vous engagez aussi à respecter l'ensemble des **lois applicables en matière de
 contrôle des exportations et de sanctions**. Vous déclarez ne pas être situé dans

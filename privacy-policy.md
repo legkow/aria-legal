@@ -1,7 +1,7 @@
 # ARIA — Privacy Policy
 
-**Last updated: 29 June 2026**
-**Effective date: 29 June 2026**
+**Last updated: 3 July 2026**
+**Effective date: 3 July 2026**
 
 This Privacy Policy explains how ARIA ("ARIA", "the app", "we", "us", "our")
 handles your information. ARIA is a personal-finance, calendar, and task
@@ -27,7 +27,8 @@ Where more than one law could apply, we apply the **higher standard**.
 
 > **Plain-language summary.** Almost everything you put into ARIA stays on your
 > iPhone. If you turn on sync, your data is encrypted on your device with a key
-> that never leaves it, so even we cannot read it. Some features are optional and
+> that stays in your iCloud Keychain — reachable by your own other devices, but
+> never by us — so even we cannot read it. Some features are optional and
 > only run when you switch them on: connecting a bank (Plaid) or importing your
 > calendar (Google/Apple). AI
 > features run on your device using Apple's models. We do not track you across
@@ -45,7 +46,11 @@ needed to run your account and subscription.
 ARIA is intended for a **general audience of adults**. It is **not directed to
 children**, and we do not knowingly collect their data: not from a minor under
 **14** in Quebec (the age Law 25 keys parental consent to), under **16** in the
-EU/UK, or under **13** in the United States. See Section 11.
+EU/UK, or under **13** in the United States. See Section 11. *(These are the
+ages at which specific privacy laws require parental consent for data
+collection — they are narrower than, and don't change, the Terms of Use's
+overall minimum age to use ARIA at all: **16, or 18 where required** — see the
+Terms of Use §2.)*
 
 ---
 
@@ -63,6 +68,7 @@ is never sent to us or anyone else.
 | **Tasks & projects** | Task titles, due dates, tags, projects, steps | You enter them, or add them by voice via Siri | On device. If sync is on, included in the encrypted backup. |
 | **Your name** | First name | You optionally provide it at sign-in | On device; tied to your account if you use cloud sync. |
 | **Account identifier** | Apple user identifier (from Sign in with Apple) | Sign in with Apple | Sent to our backend to create and authenticate your account. |
+| **Email address** | Your email (or Apple's private relay address if you choose Hide My Email) | Sign in with Apple | Sent to our backend and stored with your account record, to identify and contact you about your account. Never shared with RevenueCat, Plaid, or analytics — see Section 5. |
 | **Receipt photos** | A photo of a receipt | Only if you scan a receipt | Processed **on device** to read merchant/amount/date, then **discarded**. The image is never stored or transmitted. |
 | **Voice input** | What you say while holding the talk control | Microphone + on-device speech recognition | Transcribed **on your device** (`requiresOnDeviceRecognition`), used to answer, then discarded. Not stored, not transmitted. |
 | **Face ID / biometrics** | Biometric match result | Optional app lock | Handled entirely by iOS (LocalAuthentication). ARIA never sees or stores biometric data. |
@@ -72,7 +78,7 @@ is never sent to us or anyone else.
 
 We do **not** collect: your bank login credentials (those go directly to Plaid,
 never to ARIA), your precise location, your contacts, advertising identifiers,
-or your full email content.
+or any email content — ARIA never requests Gmail or any other email access.
 
 ---
 
@@ -149,7 +155,8 @@ time in Settings, which unlinks the item.
 ### Google — Calendar (optional)
 If you connect Google Calendar, ARIA requests **read-only** access
 (`calendar.readonly`) via Google OAuth. OAuth tokens are stored in your device
-Keychain.
+Keychain. ARIA does **not** request any Gmail access — no email scope is ever
+requested, and no email content is read.
 
 > **Limited Use disclosure.** ARIA's use and transfer of information received from
 > Google APIs adheres to the
@@ -177,8 +184,10 @@ purchase/receipt data; it does not receive your financial records, calendar, or
 email. See RevenueCat's privacy policy: https://www.revenuecat.com/privacy.
 
 ### Cloudflare — our backend and encrypted sync
-Our account, sync, and Plaid backend runs on **Cloudflare Workers** (in the
-United States). It stores your **end-to-end-encrypted** sync backup (which we
+Our account, sync, and Plaid backend runs on **Cloudflare Workers**, a global
+edge-computing network — our deployment is not pinned to a single country, so
+requests may be processed at any Cloudflare facility worldwide, including the
+United States. It stores your **end-to-end-encrypted** sync backup (which we
 cannot decrypt), your account record, and — server-side only — your Plaid access
 token. Cloudflare acts as our hosting processor.
 
@@ -196,8 +205,14 @@ legkow@me.com.
 - **Usage analytics are opt-in and off by default.** If you turn them on in
   Settings, ARIA records only coarse, **non-identifying** events (such as which
   feature was opened) — never your name, email, or any money amount. Turning the
-  setting off erases what was stored. If we transmit these diagnostics, our
-  processor is **PostHog**; events remain free of personal identifiers.
+  setting off erases what was stored. Usage analytics are **first-party and stay on
+  your device** — there is no third-party analytics provider (the previously-planned
+  PostHog integration was removed). Apple's **MetricKit** supplies crash and
+  performance diagnostics on-device, and the App Store may share **aggregate,
+  anonymous** usage statistics with us through its own App Analytics (only when you
+  have enabled Apple's *Share With App Developers* setting on your device). If a
+  future version transmits these diagnostics to our own servers, they will remain
+  free of personal identifiers and we will update this policy first.
 
 ---
 
@@ -247,9 +262,7 @@ restriction, portability, and objection, and you may withdraw consent at any tim
 Many of these are available directly in-app (export/delete). For anything else,
 email legkow@me.com. We respond within **30 days** (extendable by 60 days for
 complex requests). You also have the right to lodge a complaint with your
-supervisory authority. *(Note: a non-EU controller offering services to EU users
-may be required to appoint an EU representative under GDPR Art. 27 — see "Action
-needed" handoff.)*
+supervisory authority.
 
 **California (CCPA/CPRA) rights.** You may request to know, delete, and correct
 your personal information, and to limit the use of sensitive personal information.
@@ -283,12 +296,14 @@ We verify requests using reasonable measures proportionate to the data involved
 ## 10. Security
 
 - **End-to-end encryption.** Your sync backup is encrypted on your device with
-  **AES-256-GCM** using a 256-bit key derived and held in your device Keychain.
-  The key **never leaves your device** and is never sent to our servers, so we
-  cannot read your synced data.
+  **AES-256-GCM** using a 256-bit key. That key is stored in your **iCloud
+  Keychain**, which Apple itself end-to-end encrypts, so it can securely reach
+  your other Apple devices without ever passing through — or being readable by
+  — our servers. We never receive the key and cannot read your synced data.
 - **In transit**, all network traffic uses HTTPS/TLS.
-- **At rest on device**, credentials and keys are stored in the iOS Keychain
-  (`ThisDeviceOnly`); bank credentials are never handled by ARIA.
+- **At rest on device**, your session credential is stored device-only in the
+  iOS Keychain (`ThisDeviceOnly`, not synced anywhere); bank credentials are
+  never handled by ARIA.
 - No method of storage or transmission is 100% secure. If a **confidentiality
   incident** (data breach) occurs, we assess the risk and respond as the law
   requires:
@@ -317,14 +332,18 @@ and we will delete it.
 ## 12. Communication outside Quebec / Canada, and international transfers
 
 Our backend and service providers (Cloudflare, RevenueCat, Plaid, Google) are
-located in or process data in the **United States** — so some of your information
-(your account record; if you link a bank, a server-side access token; and your
+US-based companies, and Cloudflare's network processes data at facilities
+worldwide (not pinned to a single country) — so some of your information (your
+account record; if you link a bank, a server-side access token; and your
 end-to-end-encrypted sync backup) is **communicated outside Quebec and Canada**.
 
-- For **Quebec** residents, before relying on a provider outside Quebec we conduct
-  the privacy impact assessment Law 25 requires and put a written agreement in
-  place; our case rests on **end-to-end encryption** (the US host cannot read your
-  synced content) and on data minimization.
+- For **Quebec** residents, before relying on a provider outside Quebec we
+  conduct the privacy impact assessment Law 25 requires, and we require our
+  providers to be bound by data-processing terms appropriate to the sensitivity
+  of what they handle (we are formalizing signed agreements with each provider
+  and will update this section once that's complete); our case in the meantime
+  rests on **end-to-end encryption** (no host, in the US or elsewhere, can read
+  your synced content) and on data minimization.
 - For other **Canadian** users, we remain accountable under PIPEDA and require our
   providers to protect your data by contract to a comparable standard.
 - For **EU/UK** users, transfers rely on appropriate safeguards including the **EU
@@ -352,4 +371,4 @@ Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 ---
 
 *ARIA is an informational tool. It is not a bank, money transmitter, or financial
-adviser, and it does not move money. See the [Terms of Use](./terms-of-service) for details.*
+adviser, and it does not move money. See the Terms of Use for details.*

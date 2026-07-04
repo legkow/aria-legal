@@ -1,7 +1,7 @@
 # ARIA — Terms of Use (End-User License Agreement)
 
-**Last updated: 29 June 2026**
-**Effective date: 29 June 2026**
+**Last updated: 3 July 2026**
+**Effective date: 3 July 2026**
 
 These Terms of Use ("Terms") are a binding agreement between you and
 **Boris Alexander Legkow Orias**, an individual developer operating as a sole trader ("we", "us",
@@ -83,6 +83,16 @@ ARIA offers an optional auto-renewing premium subscription, **ARIA+**.
   confirmation of purchase. Prices are shown in the app before you buy and may
   vary by region, plan (e.g. monthly or annual), and promotion (including
   limited "founders" pricing).
+- **"Founders" pricing.** While founders spots remain, we offer a discounted
+  price that we commit to keep for as long as you stay subscribed **without a
+  lapse** ("locked for life"). **If you cancel, you lose the founders price.**
+  If you later come back and subscribe again, you'll be offered our then-current
+  **standard** pricing, not founders pricing — even if founders spots happen to
+  still be available at that time. The founders-pricing commitment holds unless
+  Apple's own subscriber price-increase process ever applies to your
+  subscription — in which case Apple will separately ask for your consent to
+  the new price, and you may always decline by cancelling, with no obligation
+  to accept it.
 - **Auto-renewal.** Subscriptions **renew automatically** at the then-current
   price for the same period unless you cancel **at least 24 hours before** the
   current period ends. Your Apple Account is charged for renewal within 24 hours
@@ -90,9 +100,14 @@ ARIA offers an optional auto-renewing premium subscription, **ARIA+**.
 - **Managing and cancelling.** Manage or cancel anytime in **Settings → your
   Apple Account → Subscriptions**, or via the in-app link. Deleting the app does
   **not** cancel a subscription.
-- **Free trials**, where offered: any unused portion of a free trial is forfeited
-  when you purchase a subscription. If you do not cancel before a trial ends, it
-  converts to a paid subscription.
+- **Free trial.** New users get full ARIA+ access for **3 days from first
+  launch**, at no charge and with **no payment method required**. This trial
+  does **not** auto-convert to a paid subscription: if you don't subscribe before
+  it ends, ARIA simply returns to the free tier — your data is never deleted or
+  hidden. (If we ever also offer a card-based free trial through the App Store on
+  a specific plan, any unused portion of that trial is forfeited upon purchase,
+  and it converts to a paid subscription unless cancelled first — that is a
+  separate mechanism from the 3-day trial described above.)
 - **Refunds** are handled by Apple under the App Store terms; we generally cannot
   issue refunds directly. Request refunds through Apple.
 - Subscription state is verified using **RevenueCat** and the App Store.
@@ -191,8 +206,11 @@ fraudulent misrepresentation).
 You may stop using ARIA at any time and delete your account in Settings, which
 erases your account on our backend and all records on your device. We may suspend
 or terminate access if you materially breach these Terms or use the app
-unlawfully. Sections that by their nature should survive (e.g. 8–10, 13–14)
-survive termination.
+unlawfully. If we suspend or terminate your access, your locally stored data
+remains on your device (ARIA is local-first, backed by on-device storage) and
+you can still export or delete it there; we will delete your backend account
+data on request unless the law requires us to retain it. Sections that by their
+nature should survive (e.g. 8–10, 13–14) survive termination.
 
 ---
 
@@ -218,9 +236,27 @@ you to **arbitrate**, to litigate outside Quebec, or to **waive your right to st
 or join a class action**.
 
 **Language (Quebec).** A **French version** of these Terms and of our Privacy
-Policy is available, and for Quebec users the French version is provided before you
-agree to an English one. *Les présentes conditions sont aussi offertes en français;
-la version française vous est remise avant que vous n'acceptiez la version anglaise.*
+Policy is available. Based on your device's region or language setting, ARIA
+presents the French version by default to users in Canada or with French set as
+their device language; viewing the English version instead requires a separate,
+deliberate action (a "View in English instead" control in the document itself),
+not a silent locale fallback. *Une version française de ces conditions et de
+notre politique de confidentialité est disponible. Selon la région ou la langue
+de votre appareil, ARIA présente la version française par défaut aux
+utilisateurs au Canada ou dont l'appareil est réglé en français; consulter la
+version anglaise exige une action distincte et délibérée, et non un simple
+repli silencieux selon la langue de l'appareil.*
+
+**Entire agreement.** These Terms, together with our Privacy Policy, constitute
+the **entire agreement** between you and the developer regarding ARIA, and
+supersede all prior or contemporaneous agreements, representations, or
+understandings, whether written or oral, except as these Terms expressly state
+otherwise.
+
+**Force majeure.** We are not liable for any failure or delay in performance
+caused by events beyond our reasonable control, including outages of
+third-party services we rely on (Apple, Plaid, RevenueCat, Cloudflare), natural
+disasters, internet or telecommunications failures, or government action.
 
 You also agree to comply with all applicable **export-control and sanctions
 laws**. You represent that you are not located in, and will not use ARIA in, a
@@ -270,5 +306,5 @@ Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada 
 
 ---
 
-*By using ARIA you confirm you have read and agree to these Terms and the [Privacy
-Policy](./privacy-policy).*
+*By using ARIA you confirm you have read and agree to these Terms and the Privacy
+Policy.*

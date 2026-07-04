@@ -7,8 +7,8 @@
 > française* (RLRQ, c. C-11). Cette traduction devrait être révisée par un juriste
 > avant sa diffusion publique.
 
-**Dernière mise à jour : 29 juin 2026**
-**Date d'entrée en vigueur : 29 juin 2026**
+**Dernière mise à jour : 3 juillet 2026**
+**Date d'entrée en vigueur : 3 juillet 2026**
 
 La présente politique de confidentialité explique comment ARIA (« ARIA »,
 « l'application », « nous », « notre », « nos ») traite vos renseignements. ARIA est
@@ -38,7 +38,8 @@ s'appliquer, nous appliquons la **norme la plus élevée**.
 
 > **Résumé en langage clair.** Presque tout ce que vous saisissez dans ARIA reste
 > sur votre iPhone. Si vous activez la synchronisation, vos données sont chiffrées
-> sur votre appareil au moyen d'une clé qui ne le quitte jamais, de sorte que même
+> sur votre appareil au moyen d'une clé qui demeure dans votre trousseau iCloud —
+> accessible par vos autres appareils, mais jamais par nous — de sorte que même
 > nous ne pouvons pas les lire. Certaines fonctions sont optionnelles et ne
 > s'exécutent que lorsque vous les activez : relier une banque (Plaid) ou importer
 > votre agenda (Google/Apple). Les fonctions d'IA s'exécutent sur votre appareil au moyen
@@ -60,7 +61,12 @@ ARIA est destinée à un **public général d'adultes**. Elle **n'est pas destin
 enfants**, et nous ne recueillons pas sciemment leurs données : ni celles d'un
 mineur de moins de **14 ans** au Québec (l'âge auquel la Loi 25 rattache le
 consentement parental), de moins de **16 ans** dans l'UE/au Royaume-Uni, ni de
-moins de **13 ans** aux États-Unis. Voir la section 11.
+moins de **13 ans** aux États-Unis. Voir la section 11. *(Il s'agit des âges
+auxquels des lois particulières sur la protection des renseignements personnels
+exigent le consentement parental pour la collecte de données — ces âges sont
+plus restreints que l'âge minimal général pour utiliser ARIA prévu aux
+Conditions d'utilisation, soit **16 ans, ou 18 ans lorsque requis** — voir
+l'article 2 des Conditions d'utilisation, et ne le modifient pas.)*
 
 ---
 
@@ -79,6 +85,7 @@ jamais envoyées à nous ni à qui que ce soit d'autre.
 | **Tâches et projets** | Titres de tâches, dates d'échéance, étiquettes, projets, étapes | Vous les saisissez, ou vous les ajoutez par la voix au moyen de Siri | Sur l'appareil. Si la synchronisation est activée, incluses dans la sauvegarde chiffrée. |
 | **Votre nom** | Prénom | Vous le fournissez facultativement à la connexion | Sur l'appareil; rattaché à votre compte si vous utilisez la synchronisation infonuagique. |
 | **Identifiant de compte** | Identifiant utilisateur Apple (de Se connecter avec Apple) | Se connecter avec Apple | Envoyé à notre infrastructure dorsale pour créer et authentifier votre compte. |
+| **Adresse courriel** | Votre courriel (ou l'adresse de relais privé d'Apple si vous choisissez Masquer mon courriel) | Se connecter avec Apple | Envoyée à notre infrastructure dorsale et conservée avec votre dossier de compte, pour vous identifier et communiquer avec vous au sujet de votre compte. Jamais communiquée à RevenueCat, à Plaid ni aux statistiques — voir la section 5. |
 | **Photos de reçus** | Une photo d'un reçu | Uniquement si vous numérisez un reçu | Traitée **sur l'appareil** pour lire le commerçant, le montant et la date, puis **supprimée**. L'image n'est jamais stockée ni transmise. |
 | **Saisie vocale** | Ce que vous dites en maintenant le bouton de dictée | Microphone + reconnaissance vocale sur l'appareil | Transcrite **sur votre appareil** (`requiresOnDeviceRecognition`), utilisée pour répondre, puis supprimée. Ni stockée, ni transmise. |
 | **Face ID / données biométriques** | Résultat de correspondance biométrique | Verrouillage facultatif de l'application | Géré entièrement par iOS (LocalAuthentication). ARIA ne voit ni ne stocke jamais de données biométriques. |
@@ -88,7 +95,8 @@ jamais envoyées à nous ni à qui que ce soit d'autre.
 
 Nous ne recueillons **pas** : vos identifiants de connexion bancaire (ceux-ci vont
 directement à Plaid, jamais à ARIA), votre localisation précise, vos contacts, vos
-identifiants publicitaires, ni le contenu intégral de vos courriels.
+identifiants publicitaires, ni aucun contenu de courriel — ARIA ne demande jamais
+d'accès à Gmail ni à aucun autre service de courriel.
 
 ---
 
@@ -177,7 +185,9 @@ https://plaid.com/legal/#end-user-privacy-policy. Vous pouvez déconnecter une b
 ### Google — Agenda (optionnel)
 Si vous reliez Google Agenda, ARIA demande un accès en **lecture seule**
 (`calendar.readonly`) au moyen de Google OAuth. Les jetons OAuth sont stockés dans
-le trousseau de votre appareil.
+le trousseau de votre appareil. ARIA ne demande **aucun** accès à Gmail — aucune
+portée liée aux courriels n'est jamais demandée, et aucun contenu de courriel
+n'est lu.
 
 > **Divulgation d'utilisation limitée (Limited Use).** L'utilisation et le transfert
 > par ARIA des renseignements reçus des API Google sont conformes à la
@@ -209,7 +219,10 @@ confidentialité de RevenueCat : https://www.revenuecat.com/privacy.
 
 ### Cloudflare — notre infrastructure dorsale et la synchronisation chiffrée
 Notre infrastructure dorsale de compte, de synchronisation et de Plaid fonctionne
-sur **Cloudflare Workers** (aux **États-Unis**). Elle stocke votre sauvegarde de
+sur **Cloudflare Workers**, un réseau informatique périphérique mondial — notre
+déploiement n'est pas fixé à un seul pays, de sorte que les requêtes peuvent être
+traitées dans n'importe quelle installation de Cloudflare dans le monde, y
+compris aux États-Unis. Elle stocke votre sauvegarde de
 synchronisation **chiffrée de bout en bout** (que nous ne pouvons pas déchiffrer),
 votre dossier de compte et — uniquement côté serveur — votre jeton d'accès Plaid.
 Cloudflare agit comme notre sous-traitant d'hébergement.
@@ -231,9 +244,15 @@ legkow@me.com.
   défaut.** Si vous les activez dans les Réglages, ARIA n'enregistre que des
   événements grossiers et **non identifiants** (par exemple, quelle fonction a été
   ouverte) — jamais votre nom, votre courriel ni un montant d'argent. Désactiver le
-  réglage efface ce qui a été stocké. Si nous transmettons ces diagnostics, notre
-  sous-traitant est **PostHog**; les événements demeurent exempts d'identifiants
-  personnels.
+  réglage efface ce qui a été stocké. Les statistiques d'utilisation sont de
+  **première partie et demeurent sur votre appareil** — aucun fournisseur d'analyse
+  tiers n'est utilisé (l'intégration PostHog envisagée a été retirée). **MetricKit**
+  d'Apple fournit des diagnostics de panne et de performance sur l'appareil, et l'App
+  Store peut nous transmettre des statistiques d'utilisation **agrégées et anonymes**
+  au moyen de son propre App Analytics (uniquement si vous avez activé le réglage
+  Apple « Partager avec les développeurs d'apps » sur votre appareil). Si une version
+  future transmet ces diagnostics à nos serveurs, ils demeureront exempts
+  d'identifiants personnels et nous mettrons d'abord à jour la présente politique.
 
 ---
 
@@ -294,10 +313,7 @@ pouvez retirer votre consentement à tout moment. Plusieurs de ces droits sont
 accessibles directement dans l'application (exportation/suppression). Pour toute
 autre demande, écrivez à legkow@me.com. Nous répondons dans un délai de
 **30 jours** (prolongeable de 60 jours pour les demandes complexes). Vous avez aussi
-le droit de déposer une plainte auprès de votre autorité de contrôle. *(Remarque :
-un responsable du traitement situé hors de l'UE qui offre des services à des
-utilisateurs de l'UE peut être tenu de désigner un représentant dans l'UE en vertu
-de l'art. 27 du RGPD — voir le transfert « Action requise ».)*
+le droit de déposer une plainte auprès de votre autorité de contrôle.
 
 **Droits en Californie (CCPA/CPRA).** Vous pouvez demander de connaître, de
 supprimer et de corriger vos renseignements personnels, et de limiter l'utilisation
@@ -335,14 +351,16 @@ données en cause (par exemple, le contrôle de l'adresse courriel du compte).
 ## 10. Sécurité
 
 - **Chiffrement de bout en bout.** Votre sauvegarde de synchronisation est chiffrée
-  sur votre appareil au moyen de **AES-256-GCM** à l'aide d'une clé de 256 bits
-  dérivée et conservée dans le trousseau de votre appareil. La clé **ne quitte jamais
-  votre appareil** et n'est jamais envoyée à nos serveurs, de sorte que nous ne
-  pouvons pas lire vos données synchronisées.
+  sur votre appareil au moyen de **AES-256-GCM** à l'aide d'une clé de 256 bits.
+  Cette clé est conservée dans votre **trousseau iCloud**, qu'Apple chiffre
+  elle-même de bout en bout, de sorte qu'elle puisse atteindre en toute sécurité
+  vos autres appareils Apple sans jamais transiter par — ni être lisible par —
+  nos serveurs. Nous ne recevons jamais la clé et ne pouvons pas lire vos
+  données synchronisées.
 - **En transit**, tout le trafic réseau utilise HTTPS/TLS.
-- **Au repos sur l'appareil**, les identifiants et les clés sont stockés dans le
-  trousseau iOS (`ThisDeviceOnly`); les identifiants bancaires ne sont jamais traités
-  par ARIA.
+- **Au repos sur l'appareil**, votre justificatif de session est stocké
+  uniquement sur l'appareil dans le trousseau iOS (`ThisDeviceOnly`, jamais
+  synchronisé); les identifiants bancaires ne sont jamais traités par ARIA.
 - Aucune méthode de stockage ou de transmission n'est sûre à 100 %. Si un **incident
   de confidentialité** (atteinte à la protection des données) survient, nous en
   évaluons le risque et réagissons comme la loi l'exige :
@@ -373,17 +391,23 @@ legkow@me.com et nous les supprimerons.
 ## 12. Communication hors du Québec / du Canada, et transferts internationaux
 
 Notre infrastructure dorsale et nos fournisseurs de services (Cloudflare,
-RevenueCat, Plaid, Google) sont situés aux **États-Unis** ou y traitent des
-données — de sorte que certains de vos renseignements (votre dossier de compte; si
-vous reliez une banque, un jeton d'accès côté serveur; et votre sauvegarde de
-synchronisation chiffrée de bout en bout) sont **communiqués hors du Québec et du
-Canada**.
+RevenueCat, Plaid, Google) sont des entreprises établies aux États-Unis, et le
+réseau de Cloudflare traite des données dans des installations partout dans le
+monde (non fixées à un seul pays) — de sorte que certains de vos renseignements
+(votre dossier de compte; si vous reliez une banque, un jeton d'accès côté
+serveur; et votre sauvegarde de synchronisation chiffrée de bout en bout) sont
+**communiqués hors du Québec et du Canada**.
 
-- Pour les résidents du **Québec**, avant de faire appel à un fournisseur situé hors
-  du Québec, nous procédons à l'évaluation des facteurs relatifs à la vie privée que
-  la Loi 25 exige et nous concluons une entente écrite; notre position repose sur le
-  **chiffrement de bout en bout** (l'hébergeur américain ne peut pas lire votre
-  contenu synchronisé) et sur la minimisation des données.
+- Pour les résidents du **Québec**, avant de faire appel à un fournisseur situé
+  hors du Québec, nous procédons à l'évaluation des facteurs relatifs à la vie
+  privée que la Loi 25 exige, et nous exigeons que nos fournisseurs soient liés
+  par des modalités de traitement des données proportionnées à la sensibilité
+  des renseignements qu'ils traitent (nous sommes en train de formaliser des
+  ententes signées avec chaque fournisseur et mettrons à jour la présente
+  section une fois ce processus terminé); notre position repose entre-temps sur
+  le **chiffrement de bout en bout** (aucun hébergeur, aux États-Unis ou
+  ailleurs, ne peut lire votre contenu synchronisé) et sur la minimisation des
+  données.
 - Pour les autres utilisateurs **canadiens**, nous demeurons responsables en vertu de
   la LPRPDE et exigeons par contrat que nos fournisseurs protègent vos données selon
   une norme comparable.
@@ -416,4 +440,4 @@ Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 *ARIA est un outil informatif. Elle n'est ni une banque, ni un transmetteur de
 fonds, ni un conseiller financier, et elle ne déplace pas d'argent. Voir les
-[Conditions d'utilisation](./terms-of-service-fr) pour plus de détails.*
+Conditions d'utilisation pour plus de détails.*
