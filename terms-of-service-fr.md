@@ -123,7 +123,7 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
   compte Apple → Abonnements**, ou au moyen du lien intégré à l'application. La
   suppression de l'application **n'annule pas** un abonnement.
 - **Essai gratuit.** Les nouveaux utilisateurs bénéficient d'un accès complet à
-  ARIA+ pendant **3 jours à compter du premier lancement**, sans frais et
+  ARIA+ pendant **14 jours à compter du premier lancement**, sans frais et
   **sans qu'un mode de paiement soit requis**. L'essai est géré par l'application
   elle-même, et non par l'App Store : il n'y a rien à acheter, rien à annuler, et
   aucun montant n'est jamais facturé à son échéance. Il ne se convertit **pas**
@@ -137,7 +137,7 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
   essai gratuit géré par l'App Store et lié à une carte pour un forfait précis,
   toute portion inutilisée de cet essai serait perdue lors de l'achat et il se
   convertirait en abonnement payant à moins d'être annulé au préalable — il
-  s'agirait d'un mécanisme distinct de l'essai de 3 jours décrit ci-dessus, et nous
+  s'agirait d'un mécanisme distinct de l'essai de 14 jours décrit ci-dessus, et nous
   n'en offrons aucun à ce jour.)
 - **Les remboursements** sont gérés par Apple en vertu des conditions de l'App
   Store; nous ne pouvons généralement pas accorder de remboursement directement.
