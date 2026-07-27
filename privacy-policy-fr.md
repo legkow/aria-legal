@@ -306,7 +306,7 @@ Nous ne communiquons des données que :
   conservation requise pour des raisons de sécurité ou légales. Le reçu d'essai
   pseudonyme décrit ci-dessous constitue la seule exception.
 - **Les horodatages anticontournement** — quelques dates dans le trousseau de votre
-  appareil (le début de votre essai gratuit de 3 jours, la dernière exécution de
+  appareil (le début de votre essai gratuit de 14 jours, la dernière exécution de
   l'application, la dernière synchronisation bancaire) — sont conservés pour la durée
   de vie de l'appareil, afin que l'essai et les limites d'actualisation bancaire ne
   puissent pas être réinitialisés en supprimant puis en réinstallant l'application.
@@ -339,7 +339,7 @@ Nous ne communiquons des données que :
   éléments limités subsistent délibérément, et aucun ne contient votre contenu ARIA
   ni vos données financières :
   - **Les horodatages anticontournement** — quelques dates dans le trousseau de votre
-    appareil (le début de votre essai gratuit de 3 jours, la dernière exécution de
+    appareil (le début de votre essai gratuit de 14 jours, la dernière exécution de
     l'application, la dernière synchronisation bancaire). Elles n'existent que pour
     empêcher la réinitialisation de l'essai gratuit et des limites d'actualisation
     bancaire par une suppression suivie d'une réinstallation, ou par un recul de
