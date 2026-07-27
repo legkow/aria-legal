@@ -1,7 +1,7 @@
 # ARIA — Terms of Use (End-User License Agreement)
 
-**Last updated: 3 July 2026**
-**Effective date: 3 July 2026**
+**Last updated: 25 July 2026**
+**Effective date: 25 July 2026**
 
 These Terms of Use ("Terms") are a binding agreement between you and
 **Boris Alexander Legkow Orias**, an individual developer operating as a sole trader ("we", "us",
@@ -100,14 +100,19 @@ ARIA offers an optional auto-renewing premium subscription, **ARIA+**.
 - **Managing and cancelling.** Manage or cancel anytime in **Settings → your
   Apple Account → Subscriptions**, or via the in-app link. Deleting the app does
   **not** cancel a subscription.
-- **Free trial.** New users get full ARIA+ access for **3 days from first
-  launch**, at no charge and with **no payment method required**. This trial
-  does **not** auto-convert to a paid subscription: if you don't subscribe before
-  it ends, ARIA simply returns to the free tier — your data is never deleted or
-  hidden. (If we ever also offer a card-based free trial through the App Store on
+- **Free trial.** New users get full ARIA+ access for **14 days from first
+  launch**, at no charge and with **no payment method required**. The trial is run
+  by the app itself, not by the App Store: there is nothing to buy, nothing to
+  cancel, and nothing is ever charged when it ends. It does **not** auto-convert to
+  a paid subscription — if you don't subscribe before it ends, ARIA simply returns
+  to the free tier, and your data is never deleted or hidden. Because the trial is
+  once per device, ARIA keeps a start date in your device's Keychain so it can't be
+  restarted by deleting and reinstalling the app (see the Privacy Policy, Sections 8
+  and 9). (If we ever also offer a card-based free trial through the App Store on
   a specific plan, any unused portion of that trial is forfeited upon purchase,
-  and it converts to a paid subscription unless cancelled first — that is a
-  separate mechanism from the 3-day trial described above.)
+  and it converts to a paid subscription unless cancelled first — that would be a
+  separate mechanism from the 14-day trial described above, and we do not offer one
+  today.)
 - **Refunds** are handled by Apple under the App Store terms; we generally cannot
   issue refunds directly. Request refunds through Apple.
 - Subscription state is verified using **RevenueCat** and the App Store.
@@ -204,7 +209,13 @@ fraudulent misrepresentation).
 ## 11. Termination
 
 You may stop using ARIA at any time and delete your account in Settings, which
-erases your account on our backend and all records on your device. We may suspend
+erases your account on our backend and every record on your device — including any
+export file ARIA wrote and its working caches — apart from the anti-bypass
+timestamps described in the Privacy Policy, Section 9. Exporting your data and
+deleting your account are always available and are never restricted by your
+subscription. Deleting your ARIA account does not cancel an ARIA+ subscription;
+Apple bills that, so cancel it in **Settings → your Apple Account →
+Subscriptions**. We may suspend
 or terminate access if you materially breach these Terms or use the app
 unlawfully. If we suspend or terminate your access, your locally stored data
 remains on your device (ARIA is local-first, backed by on-device storage) and

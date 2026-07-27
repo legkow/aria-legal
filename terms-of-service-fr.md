@@ -2,8 +2,8 @@
 
 > **Avis sur la version qui prévaut.** La présente version française est la traduction officielle des conditions d'utilisation d'ARIA. **Pour les consommateurs résidant au Québec, c'est la version française qui prévaut** en cas de divergence avec la version anglaise, conformément à la *Charte de la langue française* (RLRQ, c. C-11) et à la *Loi sur la protection du consommateur* (RLRQ, c. P-40.1). Cette traduction devrait être révisée par un avocat avant sa diffusion publique.
 
-**Dernière mise à jour : 3 juillet 2026**
-**Date d'entrée en vigueur : 3 juillet 2026**
+**Dernière mise à jour : 25 juillet 2026**
+**Date d'entrée en vigueur : 25 juillet 2026**
 
 Les présentes conditions d'utilisation (« conditions ») constituent une entente
 ayant force obligatoire entre vous et **Boris Alexander Legkow Orias**, un
@@ -124,14 +124,21 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
   suppression de l'application **n'annule pas** un abonnement.
 - **Essai gratuit.** Les nouveaux utilisateurs bénéficient d'un accès complet à
   ARIA+ pendant **3 jours à compter du premier lancement**, sans frais et
-  **sans qu'un mode de paiement soit requis**. Cet essai ne se convertit **pas**
+  **sans qu'un mode de paiement soit requis**. L'essai est géré par l'application
+  elle-même, et non par l'App Store : il n'y a rien à acheter, rien à annuler, et
+  aucun montant n'est jamais facturé à son échéance. Il ne se convertit **pas**
   automatiquement en abonnement payant : si vous ne vous abonnez pas avant la
   fin de l'essai, ARIA revient simplement au forfait gratuit — vos données ne
-  sont jamais supprimées ni masquées. (Si nous offrons également un jour un
+  sont jamais supprimées ni masquées. Comme l'essai n'est offert qu'une fois par
+  appareil, ARIA conserve une date de début dans le trousseau de votre appareil afin
+  qu'il ne puisse pas être relancé en supprimant puis en réinstallant l'application
+  (voir la politique de confidentialité, sections 8 et 9). (Si nous offrons
+  également un jour un
   essai gratuit géré par l'App Store et lié à une carte pour un forfait précis,
   toute portion inutilisée de cet essai serait perdue lors de l'achat et il se
   convertirait en abonnement payant à moins d'être annulé au préalable — il
-  s'agirait d'un mécanisme distinct de l'essai de 3 jours décrit ci-dessus.)
+  s'agirait d'un mécanisme distinct de l'essai de 3 jours décrit ci-dessus, et nous
+  n'en offrons aucun à ce jour.)
 - **Les remboursements** sont gérés par Apple en vertu des conditions de l'App
   Store; nous ne pouvons généralement pas accorder de remboursement directement.
   Demandez les remboursements par l'intermédiaire d'Apple.
@@ -246,7 +253,14 @@ frauduleuse).
 
 Vous pouvez cesser d'utiliser ARIA en tout temps et supprimer votre compte dans les
 Réglages, ce qui efface votre compte sur notre infrastructure dorsale ainsi que
-tous les enregistrements sur votre appareil. Nous pouvons suspendre ou résilier
+chaque enregistrement sur votre appareil — y compris tout fichier d'exportation
+écrit par ARIA et ses caches de travail — à l'exception des horodatages
+anticontournement décrits à la section 9 de la politique de confidentialité.
+L'exportation de vos données et la suppression de votre compte sont toujours
+accessibles et ne sont jamais restreintes par votre abonnement. Supprimer votre
+compte ARIA n'annule pas un abonnement ARIA+ : c'est Apple qui le facture, alors
+annulez-le dans **Réglages → votre compte Apple → Abonnements**.
+Nous pouvons suspendre ou résilier
 l'accès si vous manquez de façon importante aux présentes conditions ou si vous
 utilisez l'application de façon illégale. Si nous suspendons ou résilions votre
 accès, vos données stockées localement demeurent sur votre appareil (ARIA
