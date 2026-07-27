@@ -1,7 +1,7 @@
 # ARIA — Privacy Policy
 
-**Last updated: 3 July 2026**
-**Effective date: 3 July 2026**
+**Last updated: 25 July 2026**
+**Effective date: 25 July 2026**
 
 This Privacy Policy explains how ARIA ("ARIA", "the app", "we", "us", "our")
 handles your information. ARIA is a personal-finance, calendar, and task
@@ -31,7 +31,8 @@ Where more than one law could apply, we apply the **higher standard**.
 > never by us — so even we cannot read it. Some features are optional and
 > only run when you switch them on: connecting a bank (Plaid) or importing your
 > calendar (Google/Apple). AI
-> features run on your device using Apple's models. We do not track you across
+> features run on your device — on Apple's models, or on an optional open-source
+> model you can choose to download. We do not track you across
 > apps or websites, we run no advertising SDKs, and we do not sell your data.
 > This summary is for convenience only; the full text below governs.
 
@@ -68,17 +69,18 @@ is never sent to us or anyone else.
 | **Tasks & projects** | Task titles, due dates, tags, projects, steps | You enter them, or add them by voice via Siri | On device. If sync is on, included in the encrypted backup. |
 | **Your name** | First name | You optionally provide it at sign-in | On device; tied to your account if you use cloud sync. |
 | **Account identifier** | Apple user identifier (from Sign in with Apple) | Sign in with Apple | Sent to our backend to create and authenticate your account. |
-| **Email address** | Your email (or Apple's private relay address if you choose Hide My Email) | Sign in with Apple | Sent to our backend and stored with your account record, to identify and contact you about your account. Never shared with RevenueCat, Plaid, or analytics — see Section 5. |
+| **Email address** | — | **Not requested.** Sign in with Apple can share your address (or an Apple private relay address), but ARIA asks Apple only for your name, so no address is ever sent to us. | Nowhere. Your account record holds no email address. (If you write to us for support, we of course hold that message — see Section 14.) |
 | **Receipt photos** | A photo of a receipt | Only if you scan a receipt | Processed **on device** to read merchant/amount/date, then **discarded**. The image is never stored or transmitted. |
-| **Voice input** | What you say while holding the talk control | Microphone + on-device speech recognition | Transcribed **on your device** (`requiresOnDeviceRecognition`), used to answer, then discarded. Not stored, not transmitted. |
+| **Voice input** | What you say to ARIA — you can tap the mic to start and stop listening, or press and hold it and release when you're done | Microphone + on-device speech recognition | Transcribed **on your device** (`requiresOnDeviceRecognition`), used to answer, then discarded. Not stored, not transmitted. |
 | **Face ID / biometrics** | Biometric match result | Optional app lock | Handled entirely by iOS (LocalAuthentication). ARIA never sees or stores biometric data. |
 | **Diagnostics (optional)** | Coarse, non-identifying usage events (e.g. "feature opened") | Only if you turn on "Usage analytics" (off by default) | See Section 6. Contains no names, emails, or amounts. |
 | **Subscription/purchase state** | Whether you have ARIA+ | App Store purchase via RevenueCat | See Section 5. |
 | **Device settings** | Appearance, currency, language, ARIA's personality, notification preferences | You set them | On device (`UserDefaults` / `@AppStorage`). |
 
-We do **not** collect: your bank login credentials (those go directly to Plaid,
-never to ARIA), your precise location, your contacts, advertising identifiers,
-or any email content — ARIA never requests Gmail or any other email access.
+We do **not** collect: your email address (we never ask Apple for it — see the
+table above), your bank login credentials (those go directly to Plaid, never to
+ARIA), your precise location, your contacts, advertising identifiers, or any email
+content — ARIA never requests Gmail or any other email access.
 
 ---
 
@@ -116,10 +118,20 @@ subscription detection, anomaly flags, and the voice assistant — runs **on you
 device** using Apple's on-device **Foundation Models**, with deterministic
 on-device logic for scoring and pattern detection.
 
-- Where a request needs more capability than the on-device model provides, iOS
-  may use **Apple Private Cloud Compute** — Apple's privacy-preserving server
-  environment. You can pin ARIA to **strictly on-device** processing in Settings
-  ("On-device only"), which keeps these features fully offline.
+- **Nothing is sent off your device for AI.** In this version, every AI request is
+  answered on your device. ARIA does not escalate to **Apple Private Cloud Compute**
+  (Apple's privacy-preserving server environment) — that path is not enabled in the
+  shipping app. If a future version enables it, we will say so here first.
+- **An optional second on-device model.** Turning on **Settings → ARIA → On-device only**
+  pins Apple's model strictly to your device and downloads a small open-source model
+  (Qwen3-1.7B, 4-bit, Apache-2.0, roughly 1 GB, over Wi-Fi) from the Hugging Face
+  model hub. On iPhones without Apple Intelligence, that downloaded model is what
+  writes ARIA's phrasing — and, like Apple's, it runs entirely on your device. The
+  download fetches **model weights only**: no data about you is sent to Hugging Face
+  or to anyone else. The model is only ever downloaded when you ask for it — either by
+  turning this setting on, or by tapping Download on the PDF statement reader in
+  Finance › Import. Do neither and nothing is downloaded, and ARIA falls back to plain
+  templated wording instead.
 - **We do not send your data to any third-party AI provider** (no OpenAI, no
   Anthropic, no Google AI). There is no per-token cloud AI in ARIA.
 - AI output is informational and may be wrong. ARIA surfaces patterns in your own
@@ -173,7 +185,7 @@ requested, and no email content is read.
 ARIA uses Apple frameworks: **Sign in with Apple** (account creation), **EventKit**
 (Apple Calendar), **StoreKit** (purchases), **Speech** (on-device transcription),
 **LocalAuthentication** (Face ID), **ActivityKit** (Live Activities), and
-**Foundation Models / Private Cloud Compute** (intelligence). Apple's handling of
+**Foundation Models** (on-device intelligence). Apple's handling of
 this data is governed by Apple's Privacy Policy (https://www.apple.com/legal/privacy/).
 
 ### RevenueCat — subscription management
@@ -244,6 +256,19 @@ We disclose data only:
   turn analytics off.
 - **Account and Plaid records** on our backend are deleted when you delete your
   account, subject to any short retention required for security or legal reasons.
+  One exception is the pseudonymous trial receipt described below.
+- **Anti-bypass timestamps** — a handful of dates in your device's Keychain (when
+  your 14-day free trial began, when the app last ran, when bank sync last ran) — are
+  kept for the life of the device, so that the trial and the bank-refresh limits
+  can't be reset by deleting and reinstalling the app. They are dates and nothing
+  else: no name, account, amount, or contact detail, and they never leave your
+  device. For a verified account, our backend also retains one permanent
+  pseudonymous receipt containing only the first trial-start timestamp and record
+  creation timestamp. Its key is derived by one-way hashing your stable account ID;
+  it contains no raw account ID, name, email, financial data, or Plaid token. It is
+  used only to prevent the same verified identity from restarting the trial or its
+  bank-link allowance after account deletion, reinstallation, or a device change.
+  See Section 9.
 
 ---
 
@@ -251,8 +276,28 @@ We disclose data only:
 
 **In-app controls (available to everyone):**
 - **Export my data** — download a complete JSON copy of your records (Settings → Data).
-- **Delete account** — erases your account on our backend and every record on your
-  device, and destroys your sync encryption key. This cannot be undone.
+  Exporting is always available and is never restricted by your subscription.
+- **Delete account** — one action, everywhere. It erases your account and encrypted
+  sync backup on our backend; revokes every linked bank at Plaid and any connected
+  Google Calendar grant; destroys your sync encryption key and your session
+  credential; deletes every record on your device, including any export file ARIA
+  wrote and its working caches; and cancels pending notifications. This cannot be
+  undone. Deleting your account is always available and never restricted by your
+  subscription. Two limited things deliberately survive, and neither contains your
+  ARIA content or financial data:
+  - **The anti-bypass timestamps** — a handful of dates in your device's Keychain
+    (when your 14-day free trial began, when the app last ran, when bank sync last
+    ran). They exist only so that the free trial and the bank-refresh limits can't be
+    reset by deleting and reinstalling the app, or by moving the device's clock back.
+    They contain no name, account, email, or financial data, are marked device-only,
+    and never leave your phone or reach our servers. For a verified account, one
+    separate pseudonymous server receipt also survives: the first trial-start and
+    record-creation timestamps under a SHA-256-derived key. It contains no raw
+    account ID or other account content and exists only to stop delete/recreate,
+    reinstall, and cross-device trial resets.
+  - **A subscription, if you have one.** ARIA+ is billed by Apple, so deleting your
+    ARIA account does not cancel it. Cancel in **Settings → your Apple Account →
+    Subscriptions**.
 - **Disconnect integrations** — unlink Plaid or Google Calendar at any time.
 - **Turn off sync / use offline** — keep all data on-device only.
 - **Turn off diagnostics** — clears stored events.
@@ -262,7 +307,10 @@ restriction, portability, and objection, and you may withdraw consent at any tim
 Many of these are available directly in-app (export/delete). For anything else,
 email legkow@me.com. We respond within **30 days** (extendable by 60 days for
 complex requests). You also have the right to lodge a complaint with your
-supervisory authority.
+supervisory authority. ARIA is offered on the App Store in **Canada and the United
+States** and is not marketed or targeted to the EU/UK; where these rights
+nonetheless apply to you, you can exercise them by writing to the Privacy Officer
+at the address at the top of this policy.
 
 **California (CCPA/CPRA) rights.** You may request to know, delete, and correct
 your personal information, and to limit the use of sensitive personal information.
@@ -288,8 +336,12 @@ how to seek a review. You can also complain to a regulator: in **Quebec**, the
 priv.gc.ca, 1-800-282-1376. We make this policy publicly available and will
 provide a copy on request.
 
-We verify requests using reasonable measures proportionate to the data involved
-(for example, control of the account email).
+We verify requests using reasonable measures proportionate to the data involved.
+Because we hold no email address for you (see Section 2), the normal proof is
+control of the Apple Account you signed in with: signing in to ARIA and using the
+in-app export or delete controls does that by itself. For a request sent by email,
+we may ask you for details only the account holder would have — and we ask for the
+least we can, never for a bank credential or a government identifier.
 
 ---
 

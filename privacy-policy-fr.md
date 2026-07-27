@@ -7,8 +7,8 @@
 > française* (RLRQ, c. C-11). Cette traduction devrait être révisée par un juriste
 > avant sa diffusion publique.
 
-**Dernière mise à jour : 3 juillet 2026**
-**Date d'entrée en vigueur : 3 juillet 2026**
+**Dernière mise à jour : 25 juillet 2026**
+**Date d'entrée en vigueur : 25 juillet 2026**
 
 La présente politique de confidentialité explique comment ARIA (« ARIA »,
 « l'application », « nous », « notre », « nos ») traite vos renseignements. ARIA est
@@ -42,8 +42,9 @@ s'appliquer, nous appliquons la **norme la plus élevée**.
 > accessible par vos autres appareils, mais jamais par nous — de sorte que même
 > nous ne pouvons pas les lire. Certaines fonctions sont optionnelles et ne
 > s'exécutent que lorsque vous les activez : relier une banque (Plaid) ou importer
-> votre agenda (Google/Apple). Les fonctions d'IA s'exécutent sur votre appareil au moyen
-> des modèles d'Apple. Nous ne vous suivons pas d'une application ou d'un site Web à
+> votre agenda (Google/Apple). Les fonctions d'IA s'exécutent sur votre appareil —
+> au moyen des modèles d'Apple, ou d'un modèle ouvert facultatif que vous pouvez
+> choisir de télécharger. Nous ne vous suivons pas d'une application ou d'un site Web à
 > l'autre, nous n'exécutons aucun SDK publicitaire et nous ne vendons pas vos
 > données. Ce résumé n'est fourni que par commodité; c'est le texte complet ci-dessous
 > qui fait foi.
@@ -85,17 +86,18 @@ jamais envoyées à nous ni à qui que ce soit d'autre.
 | **Tâches et projets** | Titres de tâches, dates d'échéance, étiquettes, projets, étapes | Vous les saisissez, ou vous les ajoutez par la voix au moyen de Siri | Sur l'appareil. Si la synchronisation est activée, incluses dans la sauvegarde chiffrée. |
 | **Votre nom** | Prénom | Vous le fournissez facultativement à la connexion | Sur l'appareil; rattaché à votre compte si vous utilisez la synchronisation infonuagique. |
 | **Identifiant de compte** | Identifiant utilisateur Apple (de Se connecter avec Apple) | Se connecter avec Apple | Envoyé à notre infrastructure dorsale pour créer et authentifier votre compte. |
-| **Adresse courriel** | Votre courriel (ou l'adresse de relais privé d'Apple si vous choisissez Masquer mon courriel) | Se connecter avec Apple | Envoyée à notre infrastructure dorsale et conservée avec votre dossier de compte, pour vous identifier et communiquer avec vous au sujet de votre compte. Jamais communiquée à RevenueCat, à Plaid ni aux statistiques — voir la section 5. |
+| **Adresse courriel** | — | **Non demandée.** Se connecter avec Apple peut transmettre votre adresse (ou une adresse de relais privé d'Apple), mais ARIA ne demande à Apple que votre prénom : aucune adresse ne nous est donc jamais transmise. | Nulle part. Votre dossier de compte ne contient aucune adresse courriel. (Si vous nous écrivez pour du soutien, nous détenons évidemment ce message — voir la section 14.) |
 | **Photos de reçus** | Une photo d'un reçu | Uniquement si vous numérisez un reçu | Traitée **sur l'appareil** pour lire le commerçant, le montant et la date, puis **supprimée**. L'image n'est jamais stockée ni transmise. |
-| **Saisie vocale** | Ce que vous dites en maintenant le bouton de dictée | Microphone + reconnaissance vocale sur l'appareil | Transcrite **sur votre appareil** (`requiresOnDeviceRecognition`), utilisée pour répondre, puis supprimée. Ni stockée, ni transmise. |
+| **Saisie vocale** | Ce que vous dites à ARIA — vous pouvez toucher le micro pour lancer puis arrêter l'écoute, ou le maintenir enfoncé et le relâcher quand vous avez terminé | Microphone + reconnaissance vocale sur l'appareil | Transcrite **sur votre appareil** (`requiresOnDeviceRecognition`), utilisée pour répondre, puis supprimée. Ni stockée, ni transmise. |
 | **Face ID / données biométriques** | Résultat de correspondance biométrique | Verrouillage facultatif de l'application | Géré entièrement par iOS (LocalAuthentication). ARIA ne voit ni ne stocke jamais de données biométriques. |
 | **Diagnostics (facultatif)** | Événements d'utilisation grossiers et non identifiants (p. ex. « fonction ouverte ») | Uniquement si vous activez « Statistiques d'utilisation » (désactivé par défaut) | Voir la section 6. Ne contient aucun nom, courriel ni montant. |
 | **État d'abonnement/d'achat** | Si vous disposez d'ARIA+ | Achat sur l'App Store via RevenueCat | Voir la section 5. |
 | **Réglages de l'appareil** | Apparence, devise, langue, personnalité d'ARIA, préférences de notification | Vous les réglez | Sur l'appareil (`UserDefaults` / `@AppStorage`). |
 
-Nous ne recueillons **pas** : vos identifiants de connexion bancaire (ceux-ci vont
-directement à Plaid, jamais à ARIA), votre localisation précise, vos contacts, vos
-identifiants publicitaires, ni aucun contenu de courriel — ARIA ne demande jamais
+Nous ne recueillons **pas** : votre adresse courriel (nous ne la demandons jamais à
+Apple — voir le tableau ci-dessus), vos identifiants de connexion bancaire (ceux-ci
+vont directement à Plaid, jamais à ARIA), votre localisation précise, vos contacts,
+vos identifiants publicitaires, ni aucun contenu de courriel — ARIA ne demande jamais
 d'accès à Gmail ni à aucun autre service de courriel.
 
 ---
@@ -138,11 +140,23 @@ d'anomalies et l'assistant vocal — s'exécute **sur votre appareil** au moyen 
 logique déterministe sur l'appareil pour le calcul des scores et la détection des
 tendances.
 
-- Lorsqu'une requête nécessite une capacité supérieure à celle du modèle sur
-  l'appareil, iOS peut utiliser **Apple Private Cloud Compute** — l'environnement
-  serveur d'Apple respectueux de la vie privée. Vous pouvez restreindre ARIA à un
-  traitement **strictement sur l'appareil** dans les Réglages (« Sur l'appareil
-  uniquement »), ce qui garde ces fonctions entièrement hors ligne.
+- **Rien n'est envoyé hors de votre appareil pour l'IA.** Dans cette version, chaque
+  requête d'IA reçoit sa réponse sur votre appareil. ARIA n'a pas recours à **Apple
+  Private Cloud Compute** (l'environnement serveur d'Apple respectueux de la vie
+  privée) — ce chemin n'est pas activé dans l'application publiée. Si une version
+  future l'active, nous le dirons d'abord ici.
+- **Un second modèle facultatif, lui aussi sur l'appareil.** Activer **Réglages →
+  ARIA → Sur l'appareil uniquement** restreint le modèle d'Apple strictement à votre
+  appareil et télécharge un petit modèle ouvert (Qwen3-1.7B, 4 bits, licence
+  Apache-2.0, environ 1 Go, par Wi-Fi) depuis la plateforme de modèles Hugging Face.
+  Sur les iPhone dépourvus d'Apple Intelligence, c'est ce modèle téléchargé qui
+  formule les réponses d'ARIA — et, comme celui d'Apple, il s'exécute entièrement sur
+  votre appareil. Le téléchargement ne récupère **que les poids du modèle** : aucune
+  donnée vous concernant n'est transmise à Hugging Face ni à qui que ce soit d'autre.
+  Le modèle n'est téléchargé que si vous le demandez — soit en activant ce réglage, soit
+  en touchant Télécharger dans le lecteur de relevés PDF, sous Finances › Importer. Si
+  vous ne faites ni l'un ni l'autre, rien n'est téléchargé, ARIA se rabattant alors sur
+  des formulations gabarit simples.
 - **Nous n'envoyons vos données à aucun fournisseur d'IA tiers** (pas d'OpenAI, pas
   d'Anthropic, pas de Google AI). Il n'y a aucune IA infonuagique facturée au jeton
   dans ARIA.
@@ -205,8 +219,8 @@ n'est lu.
 ARIA utilise des cadriciels Apple : **Se connecter avec Apple** (création de
 compte), **EventKit** (Agenda Apple), **StoreKit** (achats), **Speech**
 (transcription sur l'appareil), **LocalAuthentication** (Face ID), **ActivityKit**
-(activités en direct) et **Foundation Models / Private Cloud Compute**
-(intelligence). Le traitement de ces données par Apple est régi par la politique de
+(activités en direct) et **Foundation Models** (intelligence sur l'appareil). Le
+traitement de ces données par Apple est régi par la politique de
 confidentialité d'Apple (https://www.apple.com/legal/privacy/).
 
 ### RevenueCat — gestion des abonnements
@@ -289,7 +303,22 @@ Nous ne communiquons des données que :
   et effacés lorsque vous désactivez les statistiques.
 - **Les dossiers de compte et de Plaid** sur notre infrastructure dorsale sont
   supprimés lorsque vous supprimez votre compte, sous réserve de toute brève
-  conservation requise pour des raisons de sécurité ou légales.
+  conservation requise pour des raisons de sécurité ou légales. Le reçu d'essai
+  pseudonyme décrit ci-dessous constitue la seule exception.
+- **Les horodatages anticontournement** — quelques dates dans le trousseau de votre
+  appareil (le début de votre essai gratuit de 3 jours, la dernière exécution de
+  l'application, la dernière synchronisation bancaire) — sont conservés pour la durée
+  de vie de l'appareil, afin que l'essai et les limites d'actualisation bancaire ne
+  puissent pas être réinitialisés en supprimant puis en réinstallant l'application.
+  Ce sont des dates et rien d'autre : aucun nom, compte, montant ni coordonnée, et
+  elles ne quittent jamais votre appareil. Pour un compte vérifié, notre serveur
+  conserve aussi un reçu pseudonyme permanent contenant uniquement l'horodatage du
+  premier début d'essai et celui de la création du reçu. Sa clé est dérivée par un
+  hachage à sens unique de votre identifiant de compte stable; il ne contient aucun
+  identifiant brut, nom, courriel, renseignement financier ni jeton Plaid. Il sert
+  uniquement à empêcher la même identité vérifiée de relancer l'essai ou son quota
+  de banques après une suppression de compte, une réinstallation ou un changement
+  d'appareil. Voir la section 9.
 
 ---
 
@@ -297,10 +326,34 @@ Nous ne communiquons des données que :
 
 **Commandes dans l'application (accessibles à tous) :**
 - **Exporter mes données** — téléchargez une copie complète de vos dossiers au format
-  JSON (Réglages → Données).
-- **Supprimer le compte** — efface votre compte sur notre infrastructure dorsale et
-  chaque dossier sur votre appareil, et détruit votre clé de chiffrement de
-  synchronisation. Cette action est irréversible.
+  JSON (Réglages → Données). L'exportation est toujours accessible et n'est jamais
+  restreinte par votre abonnement.
+- **Supprimer le compte** — une seule action, partout. Elle efface votre compte et
+  votre sauvegarde de synchronisation chiffrée sur notre infrastructure dorsale;
+  révoque chaque banque reliée auprès de Plaid ainsi que toute autorisation Google
+  Agenda connectée; détruit votre clé de chiffrement de synchronisation et votre
+  identifiant de session; supprime chaque dossier sur votre appareil, y compris tout
+  fichier d'exportation écrit par ARIA et ses caches de travail; et annule les
+  notifications en attente. Cette action est irréversible. La suppression du compte
+  est toujours accessible et n'est jamais restreinte par votre abonnement. Deux
+  éléments limités subsistent délibérément, et aucun ne contient votre contenu ARIA
+  ni vos données financières :
+  - **Les horodatages anticontournement** — quelques dates dans le trousseau de votre
+    appareil (le début de votre essai gratuit de 3 jours, la dernière exécution de
+    l'application, la dernière synchronisation bancaire). Elles n'existent que pour
+    empêcher la réinitialisation de l'essai gratuit et des limites d'actualisation
+    bancaire par une suppression suivie d'une réinstallation, ou par un recul de
+    l'horloge de l'appareil. Elles ne contiennent aucun nom, compte, courriel ni
+    donnée financière, sont marquées « cet appareil seulement » et ne quittent jamais
+    votre téléphone ni n'atteignent nos serveurs. Pour un compte vérifié, un reçu
+    pseudonyme distinct subsiste aussi sur le serveur : les horodatages du premier
+    début d'essai et de création du reçu, sous une clé dérivée par SHA-256. Il ne
+    contient aucun identifiant de compte brut ni autre contenu de compte et sert
+    uniquement à empêcher la réinitialisation de l'essai par suppression-recréation,
+    réinstallation ou changement d'appareil.
+  - **Un abonnement, le cas échéant.** ARIA+ est facturé par Apple : supprimer votre
+    compte ARIA ne l'annule donc pas. Annulez dans **Réglages → votre compte Apple →
+    Abonnements**.
 - **Déconnecter les intégrations** — dissociez Plaid ou Google Agenda à tout
   moment.
 - **Désactiver la synchronisation / utiliser hors ligne** — gardez toutes les données
@@ -313,7 +366,11 @@ pouvez retirer votre consentement à tout moment. Plusieurs de ces droits sont
 accessibles directement dans l'application (exportation/suppression). Pour toute
 autre demande, écrivez à legkow@me.com. Nous répondons dans un délai de
 **30 jours** (prolongeable de 60 jours pour les demandes complexes). Vous avez aussi
-le droit de déposer une plainte auprès de votre autorité de contrôle.
+le droit de déposer une plainte auprès de votre autorité de contrôle. ARIA est
+offerte sur l'App Store au **Canada et aux États-Unis** et n'est ni commercialisée ni
+destinée à l'UE ou au Royaume-Uni; lorsque ces droits vous sont néanmoins
+applicables, vous pouvez les exercer en écrivant au responsable de la protection des
+renseignements personnels, à l'adresse indiquée au début de la présente politique.
 
 **Droits en Californie (CCPA/CPRA).** Vous pouvez demander de connaître, de
 supprimer et de corriger vos renseignements personnels, et de limiter l'utilisation
@@ -344,7 +401,14 @@ au **Canada**, auprès du **Commissariat à la protection de la vie privée du C
 accessible au public et en fournirons une copie sur demande.
 
 Nous vérifions les demandes au moyen de mesures raisonnables et proportionnées aux
-données en cause (par exemple, le contrôle de l'adresse courriel du compte).
+données en cause. Comme nous ne détenons aucune adresse courriel vous concernant
+(voir la section 2), la preuve habituelle est le contrôle du compte Apple avec lequel
+vous vous êtes connecté : vous connecter à ARIA et utiliser les commandes
+d'exportation ou de suppression dans l'application en fait la démonstration à soi
+seul. Pour une demande envoyée par courriel, nous pouvons vous demander des
+précisions que seul le titulaire du compte connaîtrait — et nous en demandons le
+moins possible, jamais un identifiant bancaire ni une pièce d'identité
+gouvernementale.
 
 ---
 
