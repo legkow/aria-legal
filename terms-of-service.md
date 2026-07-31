@@ -1,16 +1,16 @@
 # ARIA — Terms of Use (End-User License Agreement)
 
-**Last updated: 25 July 2026**
-**Effective date: 25 July 2026**
+**Last updated: 31 July 2026**
+**Effective date: 31 July 2026**
 
 These Terms of Use ("Terms") are a binding agreement between you and
-**Boris Alexander Legkow Orias**, an individual developer operating as a sole trader ("we", "us",
-"our", "the developer"), governing your use of the ARIA iPhone app and related services
+**Boris Alexander Legkow Orias**, an individual developer operating as a sole trader under the
+business name **Estuaire Studio** ("we", "us", "our", "the developer"), governing your use of the ARIA iPhone app and related services
 ("ARIA" or "the app"). By downloading, installing, or using ARIA, you agree to
 these Terms and to our [Privacy Policy](./privacy-policy). **If you do not
 agree, do not use the app.**
 
-Contact: legkow@me.com · https://legkow.github.io/aria-legal
+Contact: Estuaire Studio · hello@estuaire.studio · https://estuaire.studio
 
 ---
 
@@ -84,11 +84,10 @@ ARIA offers an optional auto-renewing premium subscription, **ARIA+**.
   vary by region, plan (e.g. monthly or annual), and promotion (including
   limited "founders" pricing).
 - **"Founders" pricing.** While founders spots remain, we offer a discounted
-  price that we commit to keep for as long as you stay subscribed **without a
-  lapse** ("locked for life"). **If you cancel, you lose the founders price.**
-  If you later come back and subscribe again, you'll be offered our then-current
-  **standard** pricing, not founders pricing — even if founders spots happen to
-  still be available at that time. The founders-pricing commitment holds unless
+  rate that we commit to keep while your subscription remains active **without
+  a lapse**. **If you cancel, any future resubscription uses our then-current
+  standard pricing** — even if founders spots happen to still be available at
+  that time. The founders-rate commitment holds unless
   Apple's own subscriber price-increase process ever applies to your
   subscription — in which case Apple will separately ask for your consent to
   the new price, and you may always decline by cancelling, with no obligation
@@ -306,14 +305,14 @@ we acknowledge:
    beneficiaries** of these Terms and, upon your acceptance, have the right to
    enforce them against you.
 9. **Developer contact** for questions, complaints, or claims about ARIA:
-   legkow@me.com.
+   hello@estuaire.studio.
 
 ---
 
 ## 15. Contact
 
-**legkow@me.com**
-Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://legkow.github.io/aria-legal
+**Estuaire Studio** · **hello@estuaire.studio** · https://estuaire.studio
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 ---
 

@@ -2,19 +2,19 @@
 
 > **Avis sur la version qui prévaut.** La présente version française est la traduction officielle des conditions d'utilisation d'ARIA. **Pour les consommateurs résidant au Québec, c'est la version française qui prévaut** en cas de divergence avec la version anglaise, conformément à la *Charte de la langue française* (RLRQ, c. C-11) et à la *Loi sur la protection du consommateur* (RLRQ, c. P-40.1). Cette traduction devrait être révisée par un avocat avant sa diffusion publique.
 
-**Dernière mise à jour : 25 juillet 2026**
-**Date d'entrée en vigueur : 25 juillet 2026**
+**Dernière mise à jour : 31 juillet 2026**
+**Date d'entrée en vigueur : 31 juillet 2026**
 
 Les présentes conditions d'utilisation (« conditions ») constituent une entente
 ayant force obligatoire entre vous et **Boris Alexander Legkow Orias**, un
-développeur individuel exerçant à titre de travailleur autonome (« nous »,
-« notre », « nos », « le développeur »), régissant votre utilisation de
+développeur individuel exerçant à titre de travailleur autonome sous le nom
+commercial **Estuaire Studio** (« nous », « notre », « nos », « le développeur »), régissant votre utilisation de
 l'application iPhone ARIA et des services connexes (« ARIA » ou « l'application »).
 En téléchargeant, en installant ou en utilisant ARIA, vous acceptez les présentes
 conditions ainsi que notre [politique de confidentialité](./privacy-policy-fr).
 **Si vous n'êtes pas d'accord, n'utilisez pas l'application.**
 
-Contact : legkow@me.com · https://legkow.github.io/aria-legal
+Contact : Estuaire Studio · hello@estuaire.studio · https://estuaire.studio
 
 ---
 
@@ -103,12 +103,11 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
   mensuel ou annuel) et la promotion (y compris une tarification « fondateurs »
   limitée).
 - **Tarification « fondateurs ».** Tant que des places « fondateurs » sont
-  disponibles, nous offrons un prix réduit que nous nous engageons à maintenir
-  aussi longtemps que votre abonnement reste actif **sans interruption**
-  (« verrouillé à vie »). **Si vous annulez, vous perdez le prix fondateurs.**
-  Si vous vous réabonnez plus tard, le tarif **standard** alors en vigueur vous
-  sera offert, et non le tarif fondateurs — même si des places fondateurs sont
-  encore disponibles à ce moment-là. Cet engagement de prix fondateurs tient,
+  disponibles, nous offrons un tarif réduit que nous nous engageons à maintenir
+  tant que votre abonnement reste actif **sans interruption**. **Si vous annulez,
+  tout nouvel abonnement sera au tarif standard alors en vigueur** — même si des
+  places fondateurs sont encore disponibles à ce moment-là. Cet engagement de
+  tarif fondateurs tient,
   sauf si le processus propre d'Apple d'augmentation de prix pour les abonnés
   venait à s'appliquer à votre abonnement — auquel cas Apple vous demandera
   séparément votre consentement au nouveau prix, que vous pouvez toujours
@@ -367,14 +366,14 @@ d'Apple. Vous et nous reconnaissons ce qui suit :
    des présentes conditions et, dès votre acceptation, ont le droit de les faire
    valoir à votre encontre.
 9. **Contact du développeur** pour toute question, plainte ou réclamation au sujet
-   d'ARIA : legkow@me.com.
+   d'ARIA : hello@estuaire.studio.
 
 ---
 
 ## 15. Contact
 
-**legkow@me.com**
-Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada · https://legkow.github.io/aria-legal
+**Estuaire Studio** · **hello@estuaire.studio** · https://estuaire.studio
+Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 ---
 

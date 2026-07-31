@@ -1,25 +1,26 @@
 # ARIA — Privacy Policy
 
-**Last updated: 25 July 2026**
-**Effective date: 25 July 2026**
+**Last updated: 31 July 2026**
+**Effective date: 31 July 2026**
 
 This Privacy Policy explains how ARIA ("ARIA", "the app", "we", "us", "our")
 handles your information. ARIA is a personal-finance, calendar, and task
 assistant for iPhone. It is built around a simple promise: **your data lives on
 your device, and we never sell it.**
 
-ARIA is provided by **Boris Alexander Legkow Orias**, an individual developer
-operating as a sole trader in **Quebec, Canada** ("the developer"). The developer
-is the enterprise responsible for your personal information under **Quebec's
+ARIA is provided by **Estuaire Studio**, the business name under which **Boris
+Alexander Legkow Orias** operates as a sole trader in **Quebec, Canada** ("the
+developer"). Boris Alexander Legkow Orias is the enterprise responsible for your
+personal information under **Quebec's
 Law 25** (the Act respecting the protection of personal information in the private
 sector), the federal **PIPEDA**, and — for users in those regions — the **EU/UK
 GDPR** (as data controller) and the **California CCPA/CPRA**.
 
 - **Person in charge of the protection of personal information (Privacy Officer):**
   Boris Alexander Legkow Orias
-- **Contact:** legkow@me.com
+- **Contact:** hello@estuaire.studio
 - **Postal address:** 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
-- **Website:** https://legkow.github.io/aria-legal
+- **Website:** https://estuaire.studio
 
 Quebec residents are covered by **Law 25**; other Canadian users and any personal
 information that crosses provincial or national borders are covered by **PIPEDA**.
@@ -204,7 +205,7 @@ cannot decrypt), your account record, and — server-side only — your Plaid ac
 token. Cloudflare acts as our hosting processor.
 
 We maintain a current list of sub-processors available on request at
-legkow@me.com.
+hello@estuaire.studio.
 
 ---
 
@@ -305,7 +306,7 @@ We disclose data only:
 **EU/UK (GDPR) rights.** You may request access, rectification, erasure,
 restriction, portability, and objection, and you may withdraw consent at any time.
 Many of these are available directly in-app (export/delete). For anything else,
-email legkow@me.com. We respond within **30 days** (extendable by 60 days for
+email hello@estuaire.studio. We respond within **30 days** (extendable by 60 days for
 complex requests). You also have the right to lodge a complaint with your
 supervisory authority. ARIA is offered on the App Store in **Canada and the United
 States** and is not marketed or targeted to the EU/UK; where these rights
@@ -317,7 +318,7 @@ your personal information, and to limit the use of sensitive personal informatio
 We do not sell or share your personal information and do not discriminate against
 you for exercising your rights. We acknowledge requests within **10 business days**
 and respond within **45 days** (extendable by 45 days). Submit requests at
-legkow@me.com.
+hello@estuaire.studio.
 
 **Canada — Quebec (Law 25) & PIPEDA rights.** You may:
 - **access** the personal information we hold about you and **correct** it;
@@ -376,7 +377,7 @@ least we can, never for a bank credential or a government identifier.
 ARIA is not directed to children. We do not knowingly collect personal
 information from a minor under **14** in Quebec (where Law 25 keys consent to a
 parent or tutor), under **16** in the EU/UK, or under **13** in the United States
-(COPPA). If you believe a child has provided us data, contact legkow@me.com
+(COPPA). If you believe a child has provided us data, contact hello@estuaire.studio
 and we will delete it.
 
 ---
@@ -417,7 +418,7 @@ in-app notice. Continued use after an update means you accept the revised policy
 ## 14. Contact
 
 Questions, requests, or complaints:
-**legkow@me.com**
+**Estuaire Studio** · **hello@estuaire.studio** · https://estuaire.studio
 Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 ---

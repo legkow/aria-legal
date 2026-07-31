@@ -7,8 +7,8 @@
 > française* (RLRQ, c. C-11). Cette traduction devrait être révisée par un juriste
 > avant sa diffusion publique.
 
-**Dernière mise à jour : 25 juillet 2026**
-**Date d'entrée en vigueur : 25 juillet 2026**
+**Dernière mise à jour : 31 juillet 2026**
+**Date d'entrée en vigueur : 31 juillet 2026**
 
 La présente politique de confidentialité explique comment ARIA (« ARIA »,
 « l'application », « nous », « notre », « nos ») traite vos renseignements. ARIA est
@@ -16,9 +16,9 @@ un assistant de finances personnelles, d'agenda et de tâches pour iPhone. Elle
 repose sur une promesse simple : **vos données vivent sur votre appareil, et nous
 ne les vendons jamais.**
 
-ARIA est fournie par **Boris Alexander Legkow Orias**, un développeur individuel
-exerçant comme travailleur autonome au **Québec, Canada** (« le développeur »). Le
-développeur est l'entreprise responsable de vos renseignements personnels au sens
+ARIA est fournie par **Estuaire Studio**, le nom commercial sous lequel **Boris
+Alexander Legkow Orias** exerce comme travailleur autonome au **Québec, Canada**
+(« le développeur »). Boris Alexander Legkow Orias est l'entreprise responsable de vos renseignements personnels au sens
 de la **Loi 25 du Québec** (la Loi sur la protection des renseignements personnels
 dans le secteur privé), de la loi fédérale **LPRPDE** et — pour les utilisateurs de
 ces régions — du **RGPD de l'UE/du Royaume-Uni** (à titre de responsable du
@@ -27,9 +27,9 @@ traitement) et de la **CCPA/CPRA de Californie**.
 - **Personne responsable de la protection des renseignements personnels
   (responsable de la protection des renseignements personnels) :**
   Boris Alexander Legkow Orias
-- **Coordonnées :** legkow@me.com
+- **Coordonnées :** hello@estuaire.studio
 - **Adresse postale :** 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
-- **Site Web :** https://legkow.github.io/aria-legal
+- **Site Web :** https://estuaire.studio
 
 Les résidents du Québec sont visés par la **Loi 25**; les autres utilisateurs
 canadiens et tout renseignement personnel qui traverse une frontière provinciale ou
@@ -242,7 +242,7 @@ votre dossier de compte et — uniquement côté serveur — votre jeton d'accè
 Cloudflare agit comme notre sous-traitant d'hébergement.
 
 Nous tenons à jour une liste des sous-traitants, disponible sur demande à
-legkow@me.com.
+hello@estuaire.studio.
 
 ---
 
@@ -364,7 +364,7 @@ Nous ne communiquons des données que :
 rectification, l'effacement, la limitation, la portabilité et l'opposition, et vous
 pouvez retirer votre consentement à tout moment. Plusieurs de ces droits sont
 accessibles directement dans l'application (exportation/suppression). Pour toute
-autre demande, écrivez à legkow@me.com. Nous répondons dans un délai de
+autre demande, écrivez à hello@estuaire.studio. Nous répondons dans un délai de
 **30 jours** (prolongeable de 60 jours pour les demandes complexes). Vous avez aussi
 le droit de déposer une plainte auprès de votre autorité de contrôle. ARIA est
 offerte sur l'App Store au **Canada et aux États-Unis** et n'est ni commercialisée ni
@@ -378,7 +378,7 @@ des renseignements personnels sensibles. Nous ne vendons ni ne communiquons vos
 renseignements personnels et nous n'exerçons aucune discrimination à votre égard
 parce que vous exercez vos droits. Nous accusons réception des demandes dans un délai
 de **10 jours ouvrables** et y répondons dans un délai de **45 jours** (prolongeable
-de 45 jours). Soumettez vos demandes à legkow@me.com.
+de 45 jours). Soumettez vos demandes à hello@estuaire.studio.
 
 **Droits au Canada — Québec (Loi 25) et LPRPDE.** Vous pouvez :
 - **accéder** aux renseignements personnels que nous détenons à votre sujet et les
@@ -448,7 +448,7 @@ renseignements personnels auprès d'un mineur de moins de **14 ans** au Québec 
 Loi 25 rattache le consentement à un parent ou à un tuteur), de moins de **16 ans**
 dans l'UE/au Royaume-Uni, ni de moins de **13 ans** aux États-Unis (COPPA). Si vous
 croyez qu'un enfant nous a fourni des données, communiquez avec
-legkow@me.com et nous les supprimerons.
+hello@estuaire.studio et nous les supprimerons.
 
 ---
 
@@ -497,7 +497,7 @@ jour signifie que vous acceptez la politique révisée.
 ## 14. Coordonnées
 
 Questions, demandes ou plaintes :
-**legkow@me.com**
+**Estuaire Studio** · **hello@estuaire.studio** · https://estuaire.studio
 Boris Alexander Legkow Orias · 1 rue Boucher, Port-Cartier, QC G5B 2T9, Canada
 
 ---
