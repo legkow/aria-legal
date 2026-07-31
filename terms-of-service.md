@@ -99,8 +99,10 @@ ARIA offers an optional auto-renewing premium subscription, **ARIA+**.
 - **Managing and cancelling.** Manage or cancel anytime in **Settings → your
   Apple Account → Subscriptions**, or via the in-app link. Deleting the app does
   **not** cancel a subscription.
-- **Free trial.** New users get full ARIA+ access for **14 days from first
-  launch**, at no charge and with **no payment method required**. The trial is run
+- **Free trial.** New users get access to ARIA's on-device trial features for **14
+  days from first launch**, at no charge and with **no payment method required**.
+  **Live bank sync is not included in the trial and requires an active paid ARIA+
+  subscription from the first bank connection.** The trial is run
   by the app itself, not by the App Store: there is nothing to buy, nothing to
   cancel, and nothing is ever charged when it ends. It does **not** auto-convert to
   a paid subscription — if you don't subscribe before it ends, ARIA simply returns

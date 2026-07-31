@@ -307,8 +307,8 @@ Nous ne communiquons des données que :
   pseudonyme décrit ci-dessous constitue la seule exception.
 - **Les horodatages anticontournement** — quelques dates dans le trousseau de votre
   appareil (le début de votre essai gratuit de 14 jours, la dernière exécution de
-  l'application, la dernière synchronisation bancaire) — sont conservés pour la durée
-  de vie de l'appareil, afin que l'essai et les limites d'actualisation bancaire ne
+  l'application, la dernière synchronisation bancaire payante) — sont conservés pour la durée
+  de vie de l'appareil, afin que l'essai et les contrôles d'actualisation bancaire payante ne
   puissent pas être réinitialisés en supprimant puis en réinstallant l'application.
   Ce sont des dates et rien d'autre : aucun nom, compte, montant ni coordonnée, et
   elles ne quittent jamais votre appareil. Pour un compte vérifié, notre serveur
@@ -316,8 +316,8 @@ Nous ne communiquons des données que :
   premier début d'essai et celui de la création du reçu. Sa clé est dérivée par un
   hachage à sens unique de votre identifiant de compte stable; il ne contient aucun
   identifiant brut, nom, courriel, renseignement financier ni jeton Plaid. Il sert
-  uniquement à empêcher la même identité vérifiée de relancer l'essai ou son quota
-  de banques après une suppression de compte, une réinstallation ou un changement
+  uniquement à empêcher la même identité vérifiée de relancer l'essai après une
+  suppression de compte, une réinstallation ou un changement
   d'appareil. Voir la section 9.
 
 ---
@@ -340,9 +340,9 @@ Nous ne communiquons des données que :
   ni vos données financières :
   - **Les horodatages anticontournement** — quelques dates dans le trousseau de votre
     appareil (le début de votre essai gratuit de 14 jours, la dernière exécution de
-    l'application, la dernière synchronisation bancaire). Elles n'existent que pour
-    empêcher la réinitialisation de l'essai gratuit et des limites d'actualisation
-    bancaire par une suppression suivie d'une réinstallation, ou par un recul de
+    l'application, la dernière synchronisation bancaire payante). Elles n'existent que pour
+    empêcher la réinitialisation de l'essai gratuit et des contrôles d'actualisation
+    bancaire payante par une suppression suivie d'une réinstallation, ou par un recul de
     l'horloge de l'appareil. Elles ne contiennent aucun nom, compte, courriel ni
     donnée financière, sont marquées « cet appareil seulement » et ne quittent jamais
     votre téléphone ni n'atteignent nos serveurs. Pour un compte vérifié, un reçu

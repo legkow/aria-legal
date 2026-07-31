@@ -259,16 +259,16 @@ We disclose data only:
   account, subject to any short retention required for security or legal reasons.
   One exception is the pseudonymous trial receipt described below.
 - **Anti-bypass timestamps** — a handful of dates in your device's Keychain (when
-  your 14-day free trial began, when the app last ran, when bank sync last ran) — are
-  kept for the life of the device, so that the trial and the bank-refresh limits
+  your 14-day free trial began, when the app last ran, when paid bank sync last ran) — are
+  kept for the life of the device, so that the trial and paid bank-refresh controls
   can't be reset by deleting and reinstalling the app. They are dates and nothing
   else: no name, account, amount, or contact detail, and they never leave your
   device. For a verified account, our backend also retains one permanent
   pseudonymous receipt containing only the first trial-start timestamp and record
   creation timestamp. Its key is derived by one-way hashing your stable account ID;
   it contains no raw account ID, name, email, financial data, or Plaid token. It is
-  used only to prevent the same verified identity from restarting the trial or its
-  bank-link allowance after account deletion, reinstallation, or a device change.
+  used only to prevent the same verified identity from restarting the trial after
+  account deletion, reinstallation, or a device change.
   See Section 9.
 
 ---
@@ -287,8 +287,8 @@ We disclose data only:
   subscription. Two limited things deliberately survive, and neither contains your
   ARIA content or financial data:
   - **The anti-bypass timestamps** — a handful of dates in your device's Keychain
-    (when your 14-day free trial began, when the app last ran, when bank sync last
-    ran). They exist only so that the free trial and the bank-refresh limits can't be
+    (when your 14-day free trial began, when the app last ran, when paid bank sync last
+    ran). They exist only so that the free trial and paid bank-refresh controls can't be
     reset by deleting and reinstalling the app, or by moving the device's clock back.
     They contain no name, account, email, or financial data, are marked device-only,
     and never leave your phone or reach our servers. For a verified account, one

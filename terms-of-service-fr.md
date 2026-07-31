@@ -121,9 +121,11 @@ ARIA offre un abonnement premium facultatif à renouvellement automatique, **ARI
 - **Gestion et annulation.** Gérez ou annulez en tout temps dans **Réglages → votre
   compte Apple → Abonnements**, ou au moyen du lien intégré à l'application. La
   suppression de l'application **n'annule pas** un abonnement.
-- **Essai gratuit.** Les nouveaux utilisateurs bénéficient d'un accès complet à
-  ARIA+ pendant **14 jours à compter du premier lancement**, sans frais et
-  **sans qu'un mode de paiement soit requis**. L'essai est géré par l'application
+- **Essai gratuit.** Les nouveaux utilisateurs bénéficient des fonctions d'essai
+  sur l'appareil pendant **14 jours à compter du premier lancement**, sans frais et
+  **sans qu'un mode de paiement soit requis**. **La synchronisation bancaire en
+  direct n'est pas comprise dans l'essai et nécessite un abonnement ARIA+ payant
+  actif dès la première connexion bancaire.** L'essai est géré par l'application
   elle-même, et non par l'App Store : il n'y a rien à acheter, rien à annuler, et
   aucun montant n'est jamais facturé à son échéance. Il ne se convertit **pas**
   automatiquement en abonnement payant : si vous ne vous abonnez pas avant la
